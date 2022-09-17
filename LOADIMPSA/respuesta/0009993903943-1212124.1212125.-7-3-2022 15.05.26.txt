@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<respuestaPago>
+  <respuesta>aprobada</respuesta>
+  <referencia>xxxx</referencia>
+  <moneda>COP</moneda>
+  <valor>20000</valor>
+  <cuentanro>1230004</cuentanro>
+  <metodousado>TC</metodousado>
+  <autorizacion />
+  <nrotransaccion>19350000</nrotransaccion>
+  <returnUrl>/respuesta.aspx?cid=0009993903943&amp;referencia=xxxx&amp;moneda=COP&amp;valor=20000&amp;respuesta=aprobada&amp;cuentanro=1230004&amp;metodousado=TC&amp;autorizaci%20%0Aon=670087&amp;nrotransaccion=19350000&amp;idorden=1212124.1212125.</returnUrl>
+</respuestaPago>

@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LOADIMPSAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.AcumulaFOB' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="AcumulaFOB">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="restiradoEstado" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="varchar" MaxLength="150" />
+    <Property Name="userRegistro" Type="varchar" MaxLength="150" />
+    <Property Name="valorAcumulado" Type="decimal" Precision="13" Scale="4" />
+    <Property Name="fechaRegistro" Type="datetime" />
+    <Property Name="restiradoEstado" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Api' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Api">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="restiradoEstado" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="150" />
+    <Property Name="apiKey" Type="varchar(max)" />
+    <Property Name="apiToken" Type="varchar(max)" />
+    <Property Name="fechaRegistro" Type="datetime" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="150" />
+    <Property Name="restiradoEstado" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.BancosContifico' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="BancosContifico">
+    <Key>
+      <PropertyRef Name="nombreCuenta" />
+    </Key>
+    <Property Name="idCuentaBancaria" Type="varchar" MaxLength="70" />
+    <Property Name="nombreCuenta" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Canjeo' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Canjeo">
+    <Key>
+      <PropertyRef Name="idCangeo" />
+      <PropertyRef Name="restiradoEstado" />
+    </Key>
+    <Property Name="idCangeo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codigoCanje" Type="varchar" MaxLength="150" />
+    <Property Name="canjeadoEstado" Type="int" />
+    <Property Name="fechaCanjeo" Type="datetime" />
+    <Property Name="puntosUsados" Type="int" />
+    <Property Name="idCliente" Type="varchar" MaxLength="200" />
+    <Property Name="idCatalogo" Type="int" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="150" />
+    <Property Name="restiradoEstado" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Cantones' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Cantones">
+    <Key>
+      <PropertyRef Name="id_prov" />
+      <PropertyRef Name="id_cant" />
+      <PropertyRef Name="canton" />
+    </Key>
+    <Property Name="id_prov" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="id_cant" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="canton" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.CatalogoRecompensa' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CatalogoRecompensa">
+    <Key>
+      <PropertyRef Name="idCatalogo" />
+    </Key>
+    <Property Name="idCatalogo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idImgCatalog" Type="varchar(max)" />
+    <Property Name="puntos" Type="int" />
+    <Property Name="nombreUnico" Type="varchar" MaxLength="200" />
+    <Property Name="codigoCange" Type="varchar" MaxLength="150" />
+    <Property Name="cantidadProdcuto" Type="int" />
+    <Property Name="estadoProducto" Type="int" />
+    <Property Name="eliminado" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Clientes' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="idCasillero" />
+    </Key>
+    <Property Name="idCasillero" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipoIdentificacion" Type="int" />
+    <Property Name="numeroIdentificacion" Type="varchar" MaxLength="20" />
+    <Property Name="primerNombre" Type="varchar" MaxLength="300" />
+    <Property Name="segundoNombre" Type="varchar" MaxLength="300" />
+    <Property Name="primerApellido" Type="varchar" MaxLength="300" />
+    <Property Name="segundoApellido" Type="varchar" MaxLength="300" />
+    <Property Name="sexoID" Type="int" />
+    <Property Name="telefono" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="300" />
+    <Property Name="celular" Type="varchar" MaxLength="50" />
+    <Property Name="provinciaId" Type="varchar" MaxLength="50" />
+    <Property Name="provincia" Type="varchar(max)" />
+    <Property Name="cantonId" Type="varchar" MaxLength="50" />
+    <Property Name="canton" Type="varchar(max)" />
+    <Property Name="direccionEntrega" Type="varchar(max)" />
+    <Property Name="fechaNacimiento" Type="date" />
+    <Property Name="campoMarketing" Type="varchar(max)" />
+    <Property Name="idEjecutivoCuenta" Type="varchar" MaxLength="50" />
+    <Property Name="fechaRegistroCliente" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CodigosPromocionales">
+    <Key>
+      <PropertyRef Name="codPromocional" />
+    </Key>
+    <Property Name="codPromocional" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="fechaInicio" Type="date" />
+    <Property Name="fechaFin" Type="date" />
+    <Property Name="estado" Type="bit" />
+    <Property Name="tipoCodigo" Type="varchar" MaxLength="300" />
+    <Property Name="fechaRegistro" Type="date" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="200" />
+    <Property Name="valorVenta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="limitesUso" Type="int" />
+    <Property Name="valorMaximo" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Cotizaciones' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Cotizaciones">
+    <Key>
+      <PropertyRef Name="idCotizacion" />
+    </Key>
+    <Property Name="idCotizacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="150" />
+    <Property Name="categoriCotizacion" Type="varchar" MaxLength="50" />
+    <Property Name="numeroIdentificacion" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="100" />
+    <Property Name="descripcionMercancia" Type="varchar(max)" />
+    <Property Name="valorFof" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="peso" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="servicioCourier" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="totalEnvio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="fechaCotizacion" Type="datetime" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+    <Property Name="nacionalizacion" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="fleteInternacional" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="envioDomicilio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="impuestoSenae" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.CotizacionesLcl' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CotizacionesLcl">
+    <Key>
+      <PropertyRef Name="idCotizacionLcl" />
+      <PropertyRef Name="tipoCoti" />
+      <PropertyRef Name="coFee" />
+      <PropertyRef Name="iva" />
+      <PropertyRef Name="totalGasto" />
+      <PropertyRef Name="totalCotiza" />
+      <PropertyRef Name="fechaEmisionCoti" />
+    </Key>
+    <Property Name="idCotizacionLcl" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipoCoti" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombreCliente" Type="varchar" MaxLength="150" />
+    <Property Name="numeroIdentificacion" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="150" />
+    <Property Name="descripcionMercancia" Type="varchar(max)" />
+    <Property Name="peso" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="importador" Type="varchar" MaxLength="150" />
+    <Property Name="puertoOrigen" Type="varchar(max)" />
+    <Property Name="puertoDestino" Type="varchar(max)" />
+    <Property Name="diasTranscurrido" Type="int" />
+    <Property Name="metrosCubicos" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="fleteInternacional" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="gastoSpot" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="coFee" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="iva" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="totalGasto" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="totalCotiza" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="fechaExpiraCotizacion" Type="datetime" />
+    <Property Name="fechaEmisionCoti" Type="datetime" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+    <Property Name="observacion" Type="varchar(max)" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Empleados' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Empleados">
+    <Key>
+      <PropertyRef Name="numeroIdentificacion" />
+    </Key>
+    <Property Name="tipoIdentificacion" Type="int" />
+    <Property Name="numeroIdentificacion" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="primerNombre" Type="varchar" MaxLength="300" />
+    <Property Name="segundoNombre" Type="varchar" MaxLength="300" />
+    <Property Name="primerApellido" Type="varchar" MaxLength="300" />
+    <Property Name="segundoApellido" Type="varchar" MaxLength="300" />
+    <Property Name="sexoID" Type="int" />
+    <Property Name="telefono" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="300" />
+    <Property Name="celular" Type="varchar" MaxLength="100" />
+    <Property Name="fecha_nacimiento" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.EnviosBodega' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="EnviosBodega">
+    <Key>
+      <PropertyRef Name="idEnvio" />
+    </Key>
+    <Property Name="idEnvio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipoEntrega" Type="varchar" MaxLength="100" />
+    <Property Name="fechaRegistro" Type="datetime" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+    <Property Name="archivoPago" Type="nvarchar" MaxLength="200" />
+    <Property Name="categoria" Type="varchar" MaxLength="100" />
+    <Property Name="observacion" Type="nvarchar(max)" />
+    <Property Name="identificacionCliente" Type="varchar" MaxLength="100" />
+    <Property Name="estadoOrden" Type="varchar" MaxLength="200" />
+    <Property Name="totalPesoEnvio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="pagoTotalEnvio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="tipoPago" Type="varchar" MaxLength="100" />
+    <Property Name="tipoPagoConfir" Type="varchar" MaxLength="100" />
+    <Property Name="numFacturaContf" Type="varchar" MaxLength="250" />
+    <Property Name="pagoVerificar" Type="varchar" MaxLength="100" />
+    <Property Name="valorEnvioDomi" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.EnviosBodegaDetalle' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="EnviosBodegaDetalle">
+    <Key>
+      <PropertyRef Name="idEnvio" />
+    </Key>
+    <Property Name="idEnvio" Type="int" Nullable="false" />
+    <Property Name="idOrden" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Facturas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Facturas">
+    <Key>
+      <PropertyRef Name="idFactura" />
+      <PropertyRef Name="usuarioRegistro" />
+    </Key>
+    <Property Name="idFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codigoFactura" Type="varchar" MaxLength="150" />
+    <Property Name="idEnvio" Type="int" />
+    <Property Name="fechaRegistro" Type="datetime" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.HistorialCanjeo' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="HistorialCanjeo">
+    <Key>
+      <PropertyRef Name="idCangeoHist" />
+      <PropertyRef Name="descripHist" />
+    </Key>
+    <Property Name="idCangeoHist" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripHist" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="idCliente" Type="varchar" MaxLength="150" />
+    <Property Name="puntosHist" Type="int" />
+    <Property Name="fechaCanjeoHist" Type="datetime" />
+    <Property Name="clasePuntos" Type="varchar" MaxLength="200" />
+    <Property Name="provinienteHist" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.HistorialCodigosPromocionales' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="HistorialCodigosPromocionales">
+    <Key>
+      <PropertyRef Name="codigoPromocional" />
+    </Key>
+    <Property Name="strCliente" Type="varchar" MaxLength="100" />
+    <Property Name="codigoPromocional" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="fechaRegistro" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.HistorialOrdenInterna' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="HistorialOrdenInterna">
+    <Key>
+      <PropertyRef Name="numeroOrdenInterno" />
+    </Key>
+    <Property Name="numeroOrdenInterno" Type="int" Nullable="false" />
+    <Property Name="fechaRegistro" Type="datetime" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+    <Property Name="estadoOrden" Type="varchar" MaxLength="100" />
+    <Property Name="observacion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.ImpuestoDetalle' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ImpuestoDetalle">
+    <Key>
+      <PropertyRef Name="idImp" />
+    </Key>
+    <Property Name="idImp" Type="int" Nullable="false" />
+    <Property Name="idOrden" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.IngPuntos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="IngPuntos">
+    <Key>
+      <PropertyRef Name="fechaRegistro" />
+      <PropertyRef Name="identificacionCliente" />
+    </Key>
+    <Property Name="ptnAcumulado" Type="int" />
+    <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+    <Property Name="identificacionCliente" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.IngresoImpuesto' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="IngresoImpuesto">
+    <Key>
+      <PropertyRef Name="idImp" />
+      <PropertyRef Name="fechaRegistro" />
+    </Key>
+    <Property Name="idImp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipoPago" Type="varchar" MaxLength="100" />
+    <Property Name="observacion" Type="varchar(max)" />
+    <Property Name="identificacionCliente" Type="varchar" MaxLength="100" />
+    <Property Name="estadoOrden" Type="varchar" MaxLength="200" />
+    <Property Name="totalPesoImp" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="pagoImpuesto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="numCodigoImp" Type="varchar" MaxLength="250" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="MenuApp">
+    <Key>
+      <PropertyRef Name="id_nivel" />
+      <PropertyRef Name="descripcion" />
+    </Key>
+    <Property Name="id_nivel" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="id_padre" Type="int" />
+    <Property Name="url" Type="nvarchar" MaxLength="100" />
+    <Property Name="estado" Type="bit" />
+    <Property Name="permisoVisualizacion" Type="varchar" MaxLength="50" />
+    <Property Name="CssFont" Type="varchar" MaxLength="220" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Meses' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Meses">
+    <Key>
+      <PropertyRef Name="idMes" />
+    </Key>
+    <Property Name="idMes" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mes" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.OrdenesNegocio' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="OrdenesNegocio">
+    <Key>
+      <PropertyRef Name="fechaRegistro" />
+    </Key>
+    <Property Name="numeroOrdenInterno" Type="int" />
+    <Property Name="tracking" Type="varchar" MaxLength="200" />
+    <Property Name="cedulaCliente" Type="varchar" MaxLength="50" />
+    <Property Name="idTransportista" Type="int" />
+    <Property Name="nombreTransportista" Type="varchar(max)" />
+    <Property Name="peso" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="estadoInicialOrden" Type="varchar" MaxLength="200" />
+    <Property Name="fechaRecibidoMiami" Type="date" />
+    <Property Name="descripcion" Type="varchar(max)" />
+    <Property Name="observaciones" Type="varchar(max)" />
+    <Property Name="idEjecutivoCuenta" Type="varchar" MaxLength="50" />
+    <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="200" />
+    <Property Name="precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="imgFactura" Type="varchar(max)" />
+    <Property Name="codigoCategoriaC" Type="varchar" MaxLength="200" />
+    <Property Name="paqueteSeparado" Type="int" />
+    <Property Name="imgTracking" Type="varchar(max)" />
+    <Property Name="bodega" Type="varchar" MaxLength="200" />
+    <Property Name="checkUser" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ParametrosCorporativos">
+    <Key>
+      <PropertyRef Name="codigoparametro" />
+    </Key>
+    <Property Name="codigoparametro" Type="int" Nullable="false" />
+    <Property Name="nombrecodificado" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="valorint" Type="int" />
+    <Property Name="valorchar" Type="varchar(max)" />
+    <Property Name="valordate" Type="datetime" />
+    <Property Name="valordecimal" Type="decimal" Precision="12" Scale="8" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.PaymentsGet' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="PaymentsGet">
+    <Key>
+      <PropertyRef Name="idPay" />
+    </Key>
+    <Property Name="idPay" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="70" />
+    <Property Name="cid" Type="varchar" MaxLength="150" />
+    <Property Name="idorden" Type="varchar" MaxLength="350" />
+    <Property Name="fechaRegistro" Type="datetime2" Precision="7" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.PaymentsPost' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="PaymentsPost">
+    <Key>
+      <PropertyRef Name="usuario" />
+    </Key>
+    <Property Name="usuario" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="llavemd5" Type="varchar" MaxLength="200" />
+    <Property Name="urlback" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.ProdContifico' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ProdContifico">
+    <Key>
+      <PropertyRef Name="restiradoEstado" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="150" />
+    <Property Name="nombre" Type="varchar" MaxLength="150" />
+    <Property Name="precio" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="porcentajeIva" Type="int" />
+    <Property Name="porcentajeDesc" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="baseCero" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="baseGrav" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="basenoGrav" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="valIce" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="porcIce" Type="decimal" Precision="10" Scale="4" />
+    <Property Name="categoria" Type="varchar" MaxLength="150" />
+    <Property Name="fechaRegistro" Type="datetime" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="150" />
+    <Property Name="restiradoEstado" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Provincias' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Provincias">
+    <Key>
+      <PropertyRef Name="id_prov" />
+      <PropertyRef Name="provincia" />
+    </Key>
+    <Property Name="id_prov" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="provincia" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.RegistroClientesVIP' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="RegistroClientesVIP">
+    <Key>
+      <PropertyRef Name="identificacionClienteVIP" />
+    </Key>
+    <Property Name="identificacionClienteVIP" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="codigoClienteVip" Type="nvarchar" MaxLength="200" />
+    <Property Name="fechaRegistro" Type="date" />
+    <Property Name="fechaVencimiento" Type="date" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="RegistroVentas">
+    <Key>
+      <PropertyRef Name="idVenta" />
+    </Key>
+    <Property Name="idVenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaVentaEfectiva" Type="date" />
+    <Property Name="fechaRegistroVenta" Type="datetime" />
+    <Property Name="tipoCliente" Type="varchar" MaxLength="100" />
+    <Property Name="tipoDocumento" Type="varchar" MaxLength="100" />
+    <Property Name="nroDocumento" Type="varchar" MaxLength="100" />
+    <Property Name="valorVenta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="tipoVenta" Type="varchar" MaxLength="200" />
+    <Property Name="porcentaje" Type="int" />
+    <Property Name="valorComision" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" />
+    <Property Name="estado" Type="varchar" MaxLength="100" />
+    <Property Name="identificacionEjecutivo" Type="varchar" MaxLength="50" />
+    <Property Name="identificacionCliente" Type="varchar" MaxLength="100" />
+    <Property Name="descripcionVenta" Type="varchar(max)" />
+    <Property Name="ventaSinIVA" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id_rol" />
+      <PropertyRef Name="descripcion" />
+    </Key>
+    <Property Name="id_rol" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolesUsuario">
+    <Key>
+      <PropertyRef Name="cod_usu" />
+      <PropertyRef Name="identificacion" />
+      <PropertyRef Name="id_rol" />
+    </Key>
+    <Property Name="cod_usu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="identificacion" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="id_rol" Type="int" Nullable="false" />
+    <Property Name="estado" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.SEGRolesTransaccion' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="SEGRolesTransaccion">
+    <Key>
+      <PropertyRef Name="id_nivel" />
+      <PropertyRef Name="descripcionMenu" />
+      <PropertyRef Name="codTransaccion" />
+      <PropertyRef Name="id_rol" />
+    </Key>
+    <Property Name="id_nivel" Type="int" Nullable="false" />
+    <Property Name="descripcionMenu" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="codTransaccion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="id_rol" Type="int" Nullable="false" />
+    <Property Name="descripcionRol" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ServicioTick">
+    <Key>
+      <PropertyRef Name="idTicket" />
+    </Key>
+    <Property Name="idTicket" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cedulaCliente" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="idTracking" Type="varchar" MaxLength="50" />
+    <Property Name="idTransportista" Type="int" />
+    <Property Name="nombreTransportista" Type="varchar" MaxLength="200" />
+    <Property Name="descripContenido" Type="varchar" MaxLength="200" />
+    <Property Name="descripProblema" Type="varchar" MaxLength="200" />
+    <Property Name="nombreAgente" Type="varchar" MaxLength="100" />
+    <Property Name="statusTicket" Type="varchar" MaxLength="70" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="fechaRegistroTicket" Type="datetime" />
+    <Property Name="estadoTicket" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.TicketDetalle' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="TicketDetalle">
+    <Key>
+      <PropertyRef Name="idTicket" />
+      <PropertyRef Name="userRegistro" />
+      <PropertyRef Name="fecha_Registro_Comentario" />
+    </Key>
+    <Property Name="idTicket" Type="int" Nullable="false" />
+    <Property Name="comentario" Type="varchar" MaxLength="300" />
+    <Property Name="userRegistro" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fecha_Registro_Comentario" Type="datetime" Nullable="false" />
+    <Property Name="estadoComent" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.TiposEnvio' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="TiposEnvio">
+    <Key>
+      <PropertyRef Name="idTipoEnv" />
+    </Key>
+    <Property Name="idTipoEnv" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idEnvio" Type="int" />
+    <Property Name="numSeguim" Type="varchar" MaxLength="100" />
+    <Property Name="empresa" Type="varchar" MaxLength="200" />
+    <Property Name="fechaRegistroCliente" Type="datetime" />
+    <Property Name="userRegistro" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.TranferenciaBancaria' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="TranferenciaBancaria">
+    <Key>
+      <PropertyRef Name="idEnvio" />
+    </Key>
+    <Property Name="idEnvio" Type="int" Nullable="false" />
+    <Property Name="cuentaBancaria" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'LOADIMPSA.dbo.Transportistas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Transportistas">
+    <Key>
+      <PropertyRef Name="idTransportista" />
+    </Key>
+    <Property Name="idTransportista" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombreTransportista" Type="varchar" MaxLength="200" />
+    <Property Name="estado" Type="bit" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="cod_usu" />
+    </Key>
+    <Property Name="cod_usu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="identificacion" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="300" />
+    <Property Name="cambio_clave" Type="bit" />
+    <Property Name="fecha_cambio_clave" Type="date" />
+    <Property Name="privilegiado" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__SEGRolesTransacc__1DE57479">
+    <End Role="MenuApp" Type="Self.MenuApp" Multiplicity="1" />
+    <End Role="SEGRolesTransaccion" Type="Self.SEGRolesTransaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuApp">
+        <PropertyRef Name="id_nivel" />
+        <PropertyRef Name="descripcion" />
+      </Principal>
+      <Dependent Role="SEGRolesTransaccion">
+        <PropertyRef Name="id_nivel" />
+        <PropertyRef Name="descripcionMenu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SEGRolesTransacc__1ED998B2">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="SEGRolesTransaccion" Type="Self.SEGRolesTransaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id_rol" />
+        <PropertyRef Name="descripcion" />
+      </Principal>
+      <Dependent Role="SEGRolesTransaccion">
+        <PropertyRef Name="id_rol" />
+        <PropertyRef Name="descripcionRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="sp_actualiza_archivo_factura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterna" Type="int" Mode="In" />
+    <Parameter Name="imagenFactura" Type="varchar(max)" Mode="In" />
+    <Parameter Name="usuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_clientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intTipoIdentificacion" Type="int" Mode="In" />
+    <Parameter Name="strIdentificacion" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerApellido" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoApellido" Type="varchar" Mode="In" />
+    <Parameter Name="intSexo" Type="int" Mode="In" />
+    <Parameter Name="strTelefono" Type="varchar" Mode="In" />
+    <Parameter Name="strCorreo" Type="varchar" Mode="In" />
+    <Parameter Name="strCelular" Type="varchar" Mode="In" />
+    <Parameter Name="strProvinciaId" Type="varchar" Mode="In" />
+    <Parameter Name="strProvincia" Type="varchar" Mode="In" />
+    <Parameter Name="strCantonId" Type="varchar" Mode="In" />
+    <Parameter Name="strCanton" Type="varchar" Mode="In" />
+    <Parameter Name="strDireccion" Type="varchar(max)" Mode="In" />
+    <Parameter Name="datFechaNacimiento" Type="date" Mode="In" />
+    <Parameter Name="strRol" Type="varchar" Mode="In" />
+    <Parameter Name="strCodigoCLienteVip" Type="varchar" Mode="In" />
+    <Parameter Name="strCodUsuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_direccion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strIdentificacion" Type="varchar" Mode="In" />
+    <Parameter Name="strDireccion" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_edit_orden_interna" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterno" Type="int" Mode="In" />
+    <Parameter Name="strTracking" Type="varchar" Mode="In" />
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+    <Parameter Name="decPeso" Type="decimal" Mode="In" />
+    <Parameter Name="datFechaRecibidoMiami" Type="date" Mode="In" />
+    <Parameter Name="codigoCategoriaC" Type="varchar" Mode="In" />
+    <Parameter Name="strJustifica" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strDescripcion" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="strPagoVerificar" Type="int" Mode="In" />
+    <Parameter Name="precio" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_empleados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intTipoIdentificacion" Type="int" Mode="In" />
+    <Parameter Name="strIdentificacion" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerApellido" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoApellido" Type="varchar" Mode="In" />
+    <Parameter Name="intSexo" Type="int" Mode="In" />
+    <Parameter Name="strTelefono" Type="varchar" Mode="In" />
+    <Parameter Name="strCorreo" Type="varchar" Mode="In" />
+    <Parameter Name="strCelular" Type="varchar" Mode="In" />
+    <Parameter Name="datFechaNacimiento" Type="date" Mode="In" />
+    <Parameter Name="strRol" Type="varchar" Mode="In" />
+    <Parameter Name="strCodUsuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_estado_ventas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idVenta" Type="varchar" Mode="In" />
+    <Parameter Name="porcentaje" Type="int" Mode="In" />
+    <Parameter Name="valorComision" Type="decimal" Mode="In" />
+    <Parameter Name="estado" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_orden_check_out" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenEnvio" Type="int" Mode="In" />
+    <Parameter Name="strObservacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="strUsuario" Type="varchar" Mode="In" />
+    <Parameter Name="tipoPagoConfir" Type="varchar" Mode="In" />
+    <Parameter Name="numFacturaContf" Type="varchar" Mode="In" />
+    <Parameter Name="numSeg" Type="varchar" Mode="In" />
+    <Parameter Name="enviadoPor" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_orden_confirm_pago" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strconfirmPago" Type="varchar" Mode="In" />
+    <Parameter Name="intOrdenEnvio" Type="int" Mode="In" />
+    <Parameter Name="strUsuario" Type="varchar" Mode="In" />
+    <Parameter Name="strObservacion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_orden_interna" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterna" Type="int" Mode="In" />
+    <Parameter Name="imagenFactura" Type="varchar(max)" Mode="In" />
+    <Parameter Name="valorEnvio" Type="decimal" Mode="In" />
+    <Parameter Name="usuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="descripcionProducto" Type="varchar(max)" Mode="In" />
+    <Parameter Name="checkU" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_orden_ticket" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idTicket" Type="varchar" Mode="In" />
+    <Parameter Name="comentario" Type="varchar" Mode="In" />
+    <Parameter Name="statusTicket" Type="varchar" Mode="In" />
+    <Parameter Name="userRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_parametros_corporativos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intCodigoParametro" Type="int" Mode="In" />
+    <Parameter Name="valorint" Type="int" Mode="In" />
+    <Parameter Name="valorchar" Type="varchar(max)" Mode="In" />
+    <Parameter Name="valordate" Type="date" Mode="In" />
+    <Parameter Name="valordecimal" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_password" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod_usu" Type="nvarchar" Mode="In" />
+    <Parameter Name="password_ant" Type="nvarchar" Mode="In" />
+    <Parameter Name="password_new" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_actualiza_producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idProducto" Type="int" Mode="In" />
+    <Parameter Name="nombre" Type="varchar(max)" Mode="In" />
+    <Parameter Name="puntoPro" Type="int" Mode="In" />
+    <Parameter Name="cantPro" Type="int" Mode="In" />
+    <Parameter Name="estadoVisible" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_acumuado_fob" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codigoUsuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_api_values" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nombre" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_busca_clientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="buscarCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_canje" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_cliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_cliente_contifico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_cobro_contifico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_empleado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_empleado_contifico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_estudiante" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_pago" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCid" Type="varchar" Mode="In" />
+    <Parameter Name="stridorden" Type="varchar" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_parametros_corporativos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nombrecodificado" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_buscar_producto_contifico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_cambio_estado_orden_administrador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterno" Type="int" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_cambio_estado_usuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="estado" Type="bit" Mode="In" />
+    <Parameter Name="cod_usu" Type="nvarchar" Mode="In" />
+    <Parameter Name="identificacion" Type="nvarchar" Mode="In" />
+    <Parameter Name="id_rol" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_cantones_provincia" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_prov" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_clientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_codigo_casillero" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codigoUsuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_consulta_cotizaciones" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strFechaInicio" Type="date" Mode="In" />
+    <Parameter Name="strFechaFin" Type="date" Mode="In" />
+    <Parameter Name="strEjecutivo" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_consulta_cotizacionesLcl" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strFechaInicio" Type="date" Mode="In" />
+    <Parameter Name="strFechaFin" Type="date" Mode="In" />
+    <Parameter Name="strEjecutivo" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_crear_usuarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cedula" Type="nvarchar" Mode="In" />
+    <Parameter Name="rol" Type="int" Mode="In" />
+    <Parameter Name="usuario" Type="nvarchar" Mode="In" />
+    <Parameter Name="contrasenia" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_datos_clientes_actualizacion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="numeroIdentificacion" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_datos_clientes_canjeo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="numeroIdentificacion" Type="varchar" Mode="In" />
+    <Parameter Name="codigoCanje" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_datos_clientes_canjeo_historial" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="numeroIdentificacion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_datos_empleados_actualizacion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="numeroIdentificacion" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_debi_credi_puntos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accion" Type="varchar" Mode="In" />
+    <Parameter Name="valor" Type="int" Mode="In" />
+    <Parameter Name="strUsuario" Type="varchar" Mode="In" />
+    <Parameter Name="strObservacion" Type="varchar" Mode="In" />
+    <Parameter Name="idCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_descripcion_contifico" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="filtro" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_documento_factura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_ejecutivos_cuenta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_elimina_orden_administrador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterno" Type="int" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_elimina_orden_ticket" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idTicket" Type="varchar" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_elimina_producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idCatalogo" Type="varchar" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_eliminar_clientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strIdentificacion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_enivos_clientes_gestion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="numeroIdentificacion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_envio_email_autorizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_envio_email_puntos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_envio_values" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idEnvio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_envios_clientes_gestion_filtro" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="datFechaIngreso" Type="date" Mode="In" />
+    <Parameter Name="datFechaFin" Type="date" Mode="In" />
+    <Parameter Name="empresaEnvioFiltro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_factura_values" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idEnvio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_generar_canjeo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="puntosUsados" Type="int" Mode="In" />
+    <Parameter Name="idCliente" Type="varchar" Mode="In" />
+    <Parameter Name="idCatalogo" Type="int" Mode="In" />
+    <Parameter Name="usuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_generar_orden" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strTipoEntrega" Type="varchar" Mode="In" />
+    <Parameter Name="usuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="strNombreArchivoPago" Type="nvarchar" Mode="In" />
+    <Parameter Name="strCategoria" Type="nvarchar" Mode="In" />
+    <Parameter Name="strObservacion" Type="nvarchar" Mode="In" />
+    <Parameter Name="strIdentificacion" Type="nvarchar" Mode="In" />
+    <Parameter Name="decPesoTotalEnvio" Type="decimal" Mode="In" />
+    <Parameter Name="decPagoTotalEnvio" Type="decimal" Mode="In" />
+    <Parameter Name="valorEnvioDomi" Type="decimal" Mode="In" />
+    <Parameter Name="tipoPago" Type="varchar" Mode="In" />
+    <Parameter Name="tipoBanco" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_generar_orden_detalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idOrdenEnvio" Type="int" Mode="In" />
+    <Parameter Name="idOrden" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_generar_orden_detalle_Impuesto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idImp" Type="int" Mode="In" />
+    <Parameter Name="idOrden" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_historial_tracking" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intNumOrdenInterna" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_ingresa_impuesto_c" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipoPago" Type="varchar" Mode="In" />
+    <Parameter Name="observacion" Type="varchar(max)" Mode="In" />
+    <Parameter Name="identificacionCliente" Type="varchar" Mode="In" />
+    <Parameter Name="estadoOrden" Type="varchar" Mode="In" />
+    <Parameter Name="totalPeso" Type="decimal" Mode="In" />
+    <Parameter Name="pagoImpuesto" Type="decimal" Mode="In" />
+    <Parameter Name="numCodigoImp" Type="varchar" Mode="In" />
+    <Parameter Name="usuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ingreso_envio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenEnvio" Type="int" Mode="In" />
+    <Parameter Name="numSeguim" Type="varchar" Mode="In" />
+    <Parameter Name="empresa" Type="varchar" Mode="In" />
+    <Parameter Name="userRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="provincia" Type="varchar" Mode="In" />
+    <Parameter Name="canton" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ingreso_factura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenEnvio" Type="int" Mode="In" />
+    <Parameter Name="numFact" Type="varchar" Mode="In" />
+    <Parameter Name="userRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_inserta_cotizacion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strCorreo" Type="varchar" Mode="In" />
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+    <Parameter Name="strCategoria" Type="varchar" Mode="In" />
+    <Parameter Name="strDescripcionMercancia" Type="varchar" Mode="In" />
+    <Parameter Name="decValorFOF" Type="decimal" Mode="In" />
+    <Parameter Name="decPeso" Type="decimal" Mode="In" />
+    <Parameter Name="decServicioCourier" Type="decimal" Mode="In" />
+    <Parameter Name="totalEnvio" Type="decimal" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="nacionalizacion" Type="decimal" Mode="In" />
+    <Parameter Name="flete" Type="decimal" Mode="In" />
+    <Parameter Name="impuestoSenae" Type="decimal" Mode="In" />
+    <Parameter Name="decValorEnvioDomicilio" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="sp_inserta_cotizacionLcl" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nombre" Type="varchar" Mode="In" />
+    <Parameter Name="correo" Type="varchar" Mode="In" />
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+    <Parameter Name="strTipo" Type="varchar" Mode="In" />
+    <Parameter Name="strDescripcionMercancia" Type="varchar" Mode="In" />
+    <Parameter Name="importador" Type="varchar" Mode="In" />
+    <Parameter Name="decPeso" Type="decimal" Mode="In" />
+    <Parameter Name="puertoOrigen" Type="varchar" Mode="In" />
+    <Parameter Name="puertoDestino" Type="varchar" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="diasTranscurrido" Type="int" Mode="In" />
+    <Parameter Name="metrosCubicos" Type="decimal" Mode="In" />
+    <Parameter Name="fleteInternacional" Type="decimal" Mode="In" />
+    <Parameter Name="gastoSpot" Type="decimal" Mode="In" />
+    <Parameter Name="coFee" Type="decimal" Mode="In" />
+    <Parameter Name="iva" Type="decimal" Mode="In" />
+    <Parameter Name="totalGasto" Type="decimal" Mode="In" />
+    <Parameter Name="totalCotiza" Type="decimal" Mode="In" />
+    <Parameter Name="fechaExpiraCotizacion" Type="datetime" Mode="In" />
+    <Parameter Name="observacion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_inserta_empleado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intTipoIdentificacion" Type="int" Mode="In" />
+    <Parameter Name="strIdentificacion" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerApellido" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoApellido" Type="varchar" Mode="In" />
+    <Parameter Name="intSexo" Type="int" Mode="In" />
+    <Parameter Name="strCelular" Type="varchar" Mode="In" />
+    <Parameter Name="strCorreo" Type="varchar" Mode="In" />
+    <Parameter Name="datFechaNacimiento" Type="date" Mode="In" />
+    <Parameter Name="strTelefono" Type="varchar" Mode="In" />
+    <Parameter Name="strRol" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_inserta_orden_interna" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterno" Type="int" Mode="In" />
+    <Parameter Name="strTracking" Type="varchar" Mode="In" />
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+    <Parameter Name="intIdTransportista" Type="int" Mode="In" />
+    <Parameter Name="strNombreTransportista" Type="varchar" Mode="In" />
+    <Parameter Name="decPeso" Type="decimal" Mode="In" />
+    <Parameter Name="datFechaRecibidoMiami" Type="date" Mode="In" />
+    <Parameter Name="strDescripcion" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="strImgTracking" Type="varchar(max)" Mode="In" />
+    <Parameter Name="paqueteSeparado" Type="int" Mode="In" />
+    <Parameter Name="bodega" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_inserta_orden_ticket" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strTracking" Type="varchar" Mode="In" />
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+    <Parameter Name="intIdTransportista" Type="int" Mode="In" />
+    <Parameter Name="strNombreTransportista" Type="varchar" Mode="In" />
+    <Parameter Name="strDescripcion" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strContenido" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strEstadoTicket" Type="varchar" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_inserta_producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nombreProducto" Type="varchar(max)" Mode="In" />
+    <Parameter Name="cantidadProducto" Type="int" Mode="In" />
+    <Parameter Name="puntosProductos" Type="int" Mode="In" />
+    <Parameter Name="strImagen" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_insertar_clientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intTipoIdentificacion" Type="int" Mode="In" />
+    <Parameter Name="strIdentificacion" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoNombre" Type="varchar" Mode="In" />
+    <Parameter Name="strPrimerApellido" Type="varchar" Mode="In" />
+    <Parameter Name="strSegundoApellido" Type="varchar" Mode="In" />
+    <Parameter Name="intSexo" Type="int" Mode="In" />
+    <Parameter Name="strTelefono" Type="varchar" Mode="In" />
+    <Parameter Name="strCorreo" Type="varchar" Mode="In" />
+    <Parameter Name="strCelular" Type="varchar" Mode="In" />
+    <Parameter Name="strProvinciaId" Type="varchar" Mode="In" />
+    <Parameter Name="strProvincia" Type="varchar" Mode="In" />
+    <Parameter Name="strCantonId" Type="varchar" Mode="In" />
+    <Parameter Name="strCanton" Type="varchar" Mode="In" />
+    <Parameter Name="strDireccion" Type="varchar(max)" Mode="In" />
+    <Parameter Name="datFechaNacimiento" Type="date" Mode="In" />
+    <Parameter Name="strMarketing" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_lista_catalogos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_lista_parametros_corporativos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_lista_producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="estadoPoducto" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_listado_clientes_empleado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strEmpleado" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_listado_clientes_empleado_filtro" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_listado_trackings_filtros" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strEstadoTrackings" Type="varchar" Mode="In" />
+    <Parameter Name="strNroOrden" Type="varchar" Mode="In" />
+    <Parameter Name="strNroTracking" Type="varchar" Mode="In" />
+    <Parameter Name="datFechaIngreso" Type="date" Mode="In" />
+    <Parameter Name="datFechaRecibidoMiami" Type="date" Mode="In" />
+    <Parameter Name="strEjecutivo" Type="varchar" Mode="In" />
+    <Parameter Name="strCategoria" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_listado_usuarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_listado_ventas_ejecutivo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idEjecutivo" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_menu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intEstado" Type="bit" Mode="In" />
+    <Parameter Name="strRol" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_menu_nuevo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intEstado" Type="bit" Mode="In" />
+    <Parameter Name="strRol" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_orden_envio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="datFechaIngreso" Type="date" Mode="In" />
+    <Parameter Name="datFechaFin" Type="date" Mode="In" />
+    <Parameter Name="estadoOrdenFiltro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_orden_envio_detalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intIDEnvio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_orden_ticket" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="datFechaIngreso" Type="date" Mode="In" />
+    <Parameter Name="datFechaFin" Type="date" Mode="In" />
+    <Parameter Name="estadoOrdenFiltro" Type="varchar" Mode="In" />
+    <Parameter Name="numeroTicket" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_orden_ticket_detalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idTicket" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_pay_values" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_provincias" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_puntos_obtenidos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codigoUsuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_recupera_clave_mail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strUsuario" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_registro_payments_get" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCid" Type="varchar" Mode="In" />
+    <Parameter Name="stridorden" Type="varchar" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+    <Parameter Name="fechaRegistro" Type="datetime2" Mode="In" />
+  </Function>
+  <Function Name="sp_registro_venta_comision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="fechaVentaEfectiva" Type="date" Mode="In" />
+    <Parameter Name="tipoCliente" Type="varchar" Mode="In" />
+    <Parameter Name="tipoDocumento" Type="varchar" Mode="In" />
+    <Parameter Name="nroDocumento" Type="varchar" Mode="In" />
+    <Parameter Name="valorVenta" Type="decimal" Mode="In" />
+    <Parameter Name="tipoVenta" Type="varchar" Mode="In" />
+    <Parameter Name="porcentaje" Type="int" Mode="In" />
+    <Parameter Name="valorComision" Type="decimal" Mode="In" />
+    <Parameter Name="usuarioRegistro" Type="varchar" Mode="In" />
+    <Parameter Name="identificacionEjecutivo" Type="varchar" Mode="In" />
+    <Parameter Name="identificacionCliente" Type="varchar" Mode="In" />
+    <Parameter Name="strDescripcionVenta" Type="varchar(max)" Mode="In" />
+    <Parameter Name="valorVentaSinIVA" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="sp_reporte_clientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strAnio" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reporte_cotizaciones" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reporte_cotizacionesLcl" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reporte_peso" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strAnio" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reporte_promedio_tracking" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strAnio" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reporte_red_social" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strAnio" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reseteo_clave" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="password" Type="nvarchar" Mode="In" />
+    <Parameter Name="cod_usu" Type="nvarchar" Mode="In" />
+    <Parameter Name="identificacion" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_reverso_estado_orden_administrador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="intOrdenInterno" Type="int" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+    <Parameter Name="strObservaciones" Type="varchar(max)" Mode="In" />
+    <Parameter Name="strUsuarioRegistro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_roles_administrativos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_roles_general" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_trackings_cliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_trackings_cliente_estados" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_transferir_cliente_empleado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strCliente" Type="varchar" Mode="In" />
+    <Parameter Name="strIdEjectivo" Type="varchar" Mode="In" />
+    <Parameter Name="strIdEjecutivoNuevo" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_transportistas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_valida_usuario_ingresa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cod_usu" Type="nvarchar" Mode="In" />
+    <Parameter Name="pass" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ventas_ejecutivo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strEjecutivo" Type="varchar" Mode="In" />
+    <Parameter Name="strFechaInicio" Type="datetime" Mode="In" />
+    <Parameter Name="strFechaFin" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_ventas_ejecutivo_reporte" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="strEjecutivo" Type="varchar" Mode="In" />
+    <Parameter Name="strFechaInicio" Type="datetime" Mode="In" />
+    <Parameter Name="strFechaFin" Type="datetime" Mode="In" />
+    <Parameter Name="strEstado" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="Split" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="String" Type="nvarchar" Mode="In" />
+    <Parameter Name="Delimitador" Type="nvarchar" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="Value" Type="nvarchar" MaxLength="4000" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="Split_Vector" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="varchar">
+    <Parameter Name="sString" Type="nvarchar" Mode="In" />
+    <Parameter Name="cDelimiter" Type="nchar" Mode="In" />
+    <Parameter Name="index" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="LOADIMPSAModelStoreContainer">
+    <EntitySet Name="CodigosPromocionales" EntityType="Self.CodigosPromocionales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MenuApp" EntityType="Self.MenuApp" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ParametrosCorporativos" EntityType="Self.ParametrosCorporativos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegistroVentas" EntityType="Self.RegistroVentas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolesUsuario" EntityType="Self.RolesUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServicioTick" EntityType="Self.ServicioTick" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AcumulaFOB" EntityType="Self.AcumulaFOB" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[AcumulaFOB].[id] AS [id], 
+[AcumulaFOB].[idCliente] AS [idCliente], 
+[AcumulaFOB].[userRegistro] AS [userRegistro], 
+[AcumulaFOB].[valorAcumulado] AS [valorAcumulado], 
+[AcumulaFOB].[fechaRegistro] AS [fechaRegistro], 
+[AcumulaFOB].[restiradoEstado] AS [restiradoEstado]
+FROM [dbo].[AcumulaFOB] AS [AcumulaFOB]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Api" EntityType="Self.Api" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Api].[id] AS [id], 
+[Api].[nombre] AS [nombre], 
+[Api].[apiKey] AS [apiKey], 
+[Api].[apiToken] AS [apiToken], 
+[Api].[fechaRegistro] AS [fechaRegistro], 
+[Api].[usuarioRegistro] AS [usuarioRegistro], 
+[Api].[restiradoEstado] AS [restiradoEstado]
+FROM [dbo].[Api] AS [Api]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="BancosContifico" EntityType="Self.BancosContifico" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[BancosContifico].[idCuentaBancaria] AS [idCuentaBancaria], 
+[BancosContifico].[nombreCuenta] AS [nombreCuenta]
+FROM [dbo].[BancosContifico] AS [BancosContifico]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Canjeo" EntityType="Self.Canjeo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Canjeo].[idCangeo] AS [idCangeo], 
+[Canjeo].[codigoCanje] AS [codigoCanje], 
+[Canjeo].[canjeadoEstado] AS [canjeadoEstado], 
+[Canjeo].[fechaCanjeo] AS [fechaCanjeo], 
+[Canjeo].[puntosUsados] AS [puntosUsados], 
+[Canjeo].[idCliente] AS [idCliente], 
+[Canjeo].[idCatalogo] AS [idCatalogo], 
+[Canjeo].[usuarioRegistro] AS [usuarioRegistro], 
+[Canjeo].[restiradoEstado] AS [restiradoEstado]
+FROM [dbo].[Canjeo] AS [Canjeo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Cantones" EntityType="Self.Cantones" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Cantones].[id_prov] AS [id_prov], 
+[Cantones].[id_cant] AS [id_cant], 
+[Cantones].[canton] AS [canton]
+FROM [dbo].[Cantones] AS [Cantones]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CatalogoRecompensa" EntityType="Self.CatalogoRecompensa" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CatalogoRecompensa].[idCatalogo] AS [idCatalogo], 
+[CatalogoRecompensa].[idImgCatalog] AS [idImgCatalog], 
+[CatalogoRecompensa].[puntos] AS [puntos], 
+[CatalogoRecompensa].[nombreUnico] AS [nombreUnico], 
+[CatalogoRecompensa].[codigoCange] AS [codigoCange], 
+[CatalogoRecompensa].[cantidadProdcuto] AS [cantidadProdcuto], 
+[CatalogoRecompensa].[estadoProducto] AS [estadoProducto], 
+[CatalogoRecompensa].[eliminado] AS [eliminado]
+FROM [dbo].[CatalogoRecompensa] AS [CatalogoRecompensa]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Clientes].[idCasillero] AS [idCasillero], 
+[Clientes].[tipoIdentificacion] AS [tipoIdentificacion], 
+[Clientes].[numeroIdentificacion] AS [numeroIdentificacion], 
+[Clientes].[primerNombre] AS [primerNombre], 
+[Clientes].[segundoNombre] AS [segundoNombre], 
+[Clientes].[primerApellido] AS [primerApellido], 
+[Clientes].[segundoApellido] AS [segundoApellido], 
+[Clientes].[sexoID] AS [sexoID], 
+[Clientes].[telefono] AS [telefono], 
+[Clientes].[correo] AS [correo], 
+[Clientes].[celular] AS [celular], 
+[Clientes].[provinciaId] AS [provinciaId], 
+[Clientes].[provincia] AS [provincia], 
+[Clientes].[cantonId] AS [cantonId], 
+[Clientes].[canton] AS [canton], 
+[Clientes].[direccionEntrega] AS [direccionEntrega], 
+[Clientes].[fechaNacimiento] AS [fechaNacimiento], 
+[Clientes].[campoMarketing] AS [campoMarketing], 
+[Clientes].[idEjecutivoCuenta] AS [idEjecutivoCuenta], 
+[Clientes].[fechaRegistroCliente] AS [fechaRegistroCliente]
+FROM [dbo].[Clientes] AS [Clientes]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Cotizaciones" EntityType="Self.Cotizaciones" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Cotizaciones].[idCotizacion] AS [idCotizacion], 
+[Cotizaciones].[nombre] AS [nombre], 
+[Cotizaciones].[categoriCotizacion] AS [categoriCotizacion], 
+[Cotizaciones].[numeroIdentificacion] AS [numeroIdentificacion], 
+[Cotizaciones].[correo] AS [correo], 
+[Cotizaciones].[descripcionMercancia] AS [descripcionMercancia], 
+[Cotizaciones].[valorFof] AS [valorFof], 
+[Cotizaciones].[peso] AS [peso], 
+[Cotizaciones].[servicioCourier] AS [servicioCourier], 
+[Cotizaciones].[totalEnvio] AS [totalEnvio], 
+[Cotizaciones].[fechaCotizacion] AS [fechaCotizacion], 
+[Cotizaciones].[usuarioRegistro] AS [usuarioRegistro], 
+[Cotizaciones].[nacionalizacion] AS [nacionalizacion], 
+[Cotizaciones].[fleteInternacional] AS [fleteInternacional], 
+[Cotizaciones].[envioDomicilio] AS [envioDomicilio], 
+[Cotizaciones].[impuestoSenae] AS [impuestoSenae]
+FROM [dbo].[Cotizaciones] AS [Cotizaciones]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CotizacionesLcl" EntityType="Self.CotizacionesLcl" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CotizacionesLcl].[idCotizacionLcl] AS [idCotizacionLcl], 
+[CotizacionesLcl].[tipoCoti] AS [tipoCoti], 
+[CotizacionesLcl].[nombreCliente] AS [nombreCliente], 
+[CotizacionesLcl].[numeroIdentificacion] AS [numeroIdentificacion], 
+[CotizacionesLcl].[correo] AS [correo], 
+[CotizacionesLcl].[descripcionMercancia] AS [descripcionMercancia], 
+[CotizacionesLcl].[peso] AS [peso], 
+[CotizacionesLcl].[importador] AS [importador], 
+[CotizacionesLcl].[puertoOrigen] AS [puertoOrigen], 
+[CotizacionesLcl].[puertoDestino] AS [puertoDestino], 
+[CotizacionesLcl].[diasTranscurrido] AS [diasTranscurrido], 
+[CotizacionesLcl].[metrosCubicos] AS [metrosCubicos], 
+[CotizacionesLcl].[fleteInternacional] AS [fleteInternacional], 
+[CotizacionesLcl].[gastoSpot] AS [gastoSpot], 
+[CotizacionesLcl].[coFee] AS [coFee], 
+[CotizacionesLcl].[iva] AS [iva], 
+[CotizacionesLcl].[totalGasto] AS [totalGasto], 
+[CotizacionesLcl].[totalCotiza] AS [totalCotiza], 
+[CotizacionesLcl].[fechaExpiraCotizacion] AS [fechaExpiraCotizacion], 
+[CotizacionesLcl].[fechaEmisionCoti] AS [fechaEmisionCoti], 
+[CotizacionesLcl].[usuarioRegistro] AS [usuarioRegistro], 
+[CotizacionesLcl].[observacion] AS [observacion]
+FROM [dbo].[CotizacionesLcl] AS [CotizacionesLcl]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Empleados" EntityType="Self.Empleados" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Empleados].[tipoIdentificacion] AS [tipoIdentificacion], 
+[Empleados].[numeroIdentificacion] AS [numeroIdentificacion], 
+[Empleados].[primerNombre] AS [primerNombre], 
+[Empleados].[segundoNombre] AS [segundoNombre], 
+[Empleados].[primerApellido] AS [primerApellido], 
+[Empleados].[segundoApellido] AS [segundoApellido], 
+[Empleados].[sexoID] AS [sexoID], 
+[Empleados].[telefono] AS [telefono], 
+[Empleados].[correo] AS [correo], 
+[Empleados].[celular] AS [celular], 
+[Empleados].[fecha_nacimiento] AS [fecha_nacimiento]
+FROM [dbo].[Empleados] AS [Empleados]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="EnviosBodega" EntityType="Self.EnviosBodega" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[EnviosBodega].[idEnvio] AS [idEnvio], 
+[EnviosBodega].[tipoEntrega] AS [tipoEntrega], 
+[EnviosBodega].[fechaRegistro] AS [fechaRegistro], 
+[EnviosBodega].[usuarioRegistro] AS [usuarioRegistro], 
+[EnviosBodega].[archivoPago] AS [archivoPago], 
+[EnviosBodega].[categoria] AS [categoria], 
+[EnviosBodega].[observacion] AS [observacion], 
+[EnviosBodega].[identificacionCliente] AS [identificacionCliente], 
+[EnviosBodega].[estadoOrden] AS [estadoOrden], 
+[EnviosBodega].[totalPesoEnvio] AS [totalPesoEnvio], 
+[EnviosBodega].[pagoTotalEnvio] AS [pagoTotalEnvio], 
+[EnviosBodega].[tipoPago] AS [tipoPago], 
+[EnviosBodega].[tipoPagoConfir] AS [tipoPagoConfir], 
+[EnviosBodega].[numFacturaContf] AS [numFacturaContf], 
+[EnviosBodega].[pagoVerificar] AS [pagoVerificar], 
+[EnviosBodega].[valorEnvioDomi] AS [valorEnvioDomi]
+FROM [dbo].[EnviosBodega] AS [EnviosBodega]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="EnviosBodegaDetalle" EntityType="Self.EnviosBodegaDetalle" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[EnviosBodegaDetalle].[idEnvio] AS [idEnvio], 
+[EnviosBodegaDetalle].[idOrden] AS [idOrden]
+FROM [dbo].[EnviosBodegaDetalle] AS [EnviosBodegaDetalle]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Facturas" EntityType="Self.Facturas" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Facturas].[idFactura] AS [idFactura], 
+[Facturas].[codigoFactura] AS [codigoFactura], 
+[Facturas].[idEnvio] AS [idEnvio], 
+[Facturas].[fechaRegistro] AS [fechaRegistro], 
+[Facturas].[usuarioRegistro] AS [usuarioRegistro]
+FROM [dbo].[Facturas] AS [Facturas]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="HistorialCanjeo" EntityType="Self.HistorialCanjeo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[HistorialCanjeo].[idCangeoHist] AS [idCangeoHist], 
+[HistorialCanjeo].[descripHist] AS [descripHist], 
+[HistorialCanjeo].[idCliente] AS [idCliente], 
+[HistorialCanjeo].[puntosHist] AS [puntosHist], 
+[HistorialCanjeo].[fechaCanjeoHist] AS [fechaCanjeoHist], 
+[HistorialCanjeo].[clasePuntos] AS [clasePuntos], 
+[HistorialCanjeo].[provinienteHist] AS [provinienteHist]
+FROM [dbo].[HistorialCanjeo] AS [HistorialCanjeo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="HistorialCodigosPromocionales" EntityType="Self.HistorialCodigosPromocionales" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[HistorialCodigosPromocionales].[strCliente] AS [strCliente], 
+[HistorialCodigosPromocionales].[codigoPromocional] AS [codigoPromocional], 
+[HistorialCodigosPromocionales].[fechaRegistro] AS [fechaRegistro]
+FROM [dbo].[HistorialCodigosPromocionales] AS [HistorialCodigosPromocionales]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="HistorialOrdenInterna" EntityType="Self.HistorialOrdenInterna" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[HistorialOrdenInterna].[numeroOrdenInterno] AS [numeroOrdenInterno], 
+[HistorialOrdenInterna].[fechaRegistro] AS [fechaRegistro], 
+[HistorialOrdenInterna].[usuarioRegistro] AS [usuarioRegistro], 
+[HistorialOrdenInterna].[estadoOrden] AS [estadoOrden], 
+[HistorialOrdenInterna].[observacion] AS [observacion]
+FROM [dbo].[HistorialOrdenInterna] AS [HistorialOrdenInterna]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ImpuestoDetalle" EntityType="Self.ImpuestoDetalle" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ImpuestoDetalle].[idImp] AS [idImp], 
+[ImpuestoDetalle].[idOrden] AS [idOrden]
+FROM [dbo].[ImpuestoDetalle] AS [ImpuestoDetalle]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="IngPuntos" EntityType="Self.IngPuntos" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[IngPuntos].[ptnAcumulado] AS [ptnAcumulado], 
+[IngPuntos].[fechaRegistro] AS [fechaRegistro], 
+[IngPuntos].[usuarioRegistro] AS [usuarioRegistro], 
+[IngPuntos].[identificacionCliente] AS [identificacionCliente]
+FROM [dbo].[IngPuntos] AS [IngPuntos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="IngresoImpuesto" EntityType="Self.IngresoImpuesto" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[IngresoImpuesto].[idImp] AS [idImp], 
+[IngresoImpuesto].[tipoPago] AS [tipoPago], 
+[IngresoImpuesto].[observacion] AS [observacion], 
+[IngresoImpuesto].[identificacionCliente] AS [identificacionCliente], 
+[IngresoImpuesto].[estadoOrden] AS [estadoOrden], 
+[IngresoImpuesto].[totalPesoImp] AS [totalPesoImp], 
+[IngresoImpuesto].[fechaRegistro] AS [fechaRegistro], 
+[IngresoImpuesto].[pagoImpuesto] AS [pagoImpuesto], 
+[IngresoImpuesto].[numCodigoImp] AS [numCodigoImp], 
+[IngresoImpuesto].[usuarioRegistro] AS [usuarioRegistro]
+FROM [dbo].[IngresoImpuesto] AS [IngresoImpuesto]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Meses" EntityType="Self.Meses" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Meses].[idMes] AS [idMes], 
+[Meses].[Mes] AS [Mes]
+FROM [dbo].[Meses] AS [Meses]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="OrdenesNegocio" EntityType="Self.OrdenesNegocio" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[OrdenesNegocio].[numeroOrdenInterno] AS [numeroOrdenInterno], 
+[OrdenesNegocio].[tracking] AS [tracking], 
+[OrdenesNegocio].[cedulaCliente] AS [cedulaCliente], 
+[OrdenesNegocio].[idTransportista] AS [idTransportista], 
+[OrdenesNegocio].[nombreTransportista] AS [nombreTransportista], 
+[OrdenesNegocio].[peso] AS [peso], 
+[OrdenesNegocio].[estadoInicialOrden] AS [estadoInicialOrden], 
+[OrdenesNegocio].[fechaRecibidoMiami] AS [fechaRecibidoMiami], 
+[OrdenesNegocio].[descripcion] AS [descripcion], 
+[OrdenesNegocio].[observaciones] AS [observaciones], 
+[OrdenesNegocio].[idEjecutivoCuenta] AS [idEjecutivoCuenta], 
+[OrdenesNegocio].[fechaRegistro] AS [fechaRegistro], 
+[OrdenesNegocio].[usuarioRegistro] AS [usuarioRegistro], 
+[OrdenesNegocio].[precio] AS [precio], 
+[OrdenesNegocio].[imgFactura] AS [imgFactura], 
+[OrdenesNegocio].[codigoCategoriaC] AS [codigoCategoriaC], 
+[OrdenesNegocio].[paqueteSeparado] AS [paqueteSeparado], 
+[OrdenesNegocio].[imgTracking] AS [imgTracking], 
+[OrdenesNegocio].[bodega] AS [bodega], 
+[OrdenesNegocio].[checkUser] AS [checkUser]
+FROM [dbo].[OrdenesNegocio] AS [OrdenesNegocio]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PaymentsGet" EntityType="Self.PaymentsGet" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[PaymentsGet].[idPay] AS [idPay], 
+[PaymentsGet].[estado] AS [estado], 
+[PaymentsGet].[cid] AS [cid], 
+[PaymentsGet].[idorden] AS [idorden], 
+[PaymentsGet].[fechaRegistro] AS [fechaRegistro]
+FROM [dbo].[PaymentsGet] AS [PaymentsGet]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PaymentsPost" EntityType="Self.PaymentsPost" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[PaymentsPost].[usuario] AS [usuario], 
+[PaymentsPost].[llavemd5] AS [llavemd5], 
+[PaymentsPost].[urlback] AS [urlback]
+FROM [dbo].[PaymentsPost] AS [PaymentsPost]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ProdContifico" EntityType="Self.ProdContifico" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ProdContifico].[id] AS [id], 
+[ProdContifico].[nombre] AS [nombre], 
+[ProdContifico].[precio] AS [precio], 
+[ProdContifico].[porcentajeIva] AS [porcentajeIva], 
+[ProdContifico].[porcentajeDesc] AS [porcentajeDesc], 
+[ProdContifico].[baseCero] AS [baseCero], 
+[ProdContifico].[baseGrav] AS [baseGrav], 
+[ProdContifico].[basenoGrav] AS [basenoGrav], 
+[ProdContifico].[valIce] AS [valIce], 
+[ProdContifico].[porcIce] AS [porcIce], 
+[ProdContifico].[categoria] AS [categoria], 
+[ProdContifico].[fechaRegistro] AS [fechaRegistro], 
+[ProdContifico].[usuarioRegistro] AS [usuarioRegistro], 
+[ProdContifico].[restiradoEstado] AS [restiradoEstado]
+FROM [dbo].[ProdContifico] AS [ProdContifico]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Provincias" EntityType="Self.Provincias" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Provincias].[id_prov] AS [id_prov], 
+[Provincias].[provincia] AS [provincia]
+FROM [dbo].[Provincias] AS [Provincias]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="RegistroClientesVIP" EntityType="Self.RegistroClientesVIP" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[RegistroClientesVIP].[identificacionClienteVIP] AS [identificacionClienteVIP], 
+[RegistroClientesVIP].[codigoClienteVip] AS [codigoClienteVip], 
+[RegistroClientesVIP].[fechaRegistro] AS [fechaRegistro], 
+[RegistroClientesVIP].[fechaVencimiento] AS [fechaVencimiento], 
+[RegistroClientesVIP].[usuarioRegistro] AS [usuarioRegistro]
+FROM [dbo].[RegistroClientesVIP] AS [RegistroClientesVIP]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SEGRolesTransaccion" EntityType="Self.SEGRolesTransaccion" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[SEGRolesTransaccion].[id_nivel] AS [id_nivel], 
+[SEGRolesTransaccion].[descripcionMenu] AS [descripcionMenu], 
+[SEGRolesTransaccion].[codTransaccion] AS [codTransaccion], 
+[SEGRolesTransaccion].[id_rol] AS [id_rol], 
+[SEGRolesTransaccion].[descripcionRol] AS [descripcionRol]
+FROM [dbo].[SEGRolesTransaccion] AS [SEGRolesTransaccion]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TicketDetalle" EntityType="Self.TicketDetalle" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[TicketDetalle].[idTicket] AS [idTicket], 
+[TicketDetalle].[comentario] AS [comentario], 
+[TicketDetalle].[userRegistro] AS [userRegistro], 
+[TicketDetalle].[fecha_Registro_Comentario] AS [fecha_Registro_Comentario], 
+[TicketDetalle].[estadoComent] AS [estadoComent]
+FROM [dbo].[TicketDetalle] AS [TicketDetalle]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TiposEnvio" EntityType="Self.TiposEnvio" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[TiposEnvio].[idTipoEnv] AS [idTipoEnv], 
+[TiposEnvio].[idEnvio] AS [idEnvio], 
+[TiposEnvio].[numSeguim] AS [numSeguim], 
+[TiposEnvio].[empresa] AS [empresa], 
+[TiposEnvio].[fechaRegistroCliente] AS [fechaRegistroCliente], 
+[TiposEnvio].[userRegistro] AS [userRegistro]
+FROM [dbo].[TiposEnvio] AS [TiposEnvio]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TranferenciaBancaria" EntityType="Self.TranferenciaBancaria" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[TranferenciaBancaria].[idEnvio] AS [idEnvio], 
+[TranferenciaBancaria].[cuentaBancaria] AS [cuentaBancaria]
+FROM [dbo].[TranferenciaBancaria] AS [TranferenciaBancaria]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Transportistas" EntityType="Self.Transportistas" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Transportistas].[idTransportista] AS [idTransportista], 
+[Transportistas].[nombreTransportista] AS [nombreTransportista], 
+[Transportistas].[estado] AS [estado]
+FROM [dbo].[Transportistas] AS [Transportistas]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__SEGRolesTransacc__1DE57479" Association="Self.FK__SEGRolesTransacc__1DE57479">
+      <End Role="MenuApp" EntitySet="MenuApp" />
+      <End Role="SEGRolesTransaccion" EntitySet="SEGRolesTransaccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SEGRolesTransacc__1ED998B2" Association="Self.FK__SEGRolesTransacc__1ED998B2">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="SEGRolesTransaccion" EntitySet="SEGRolesTransaccion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

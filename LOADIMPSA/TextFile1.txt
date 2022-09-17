@@ -1,0 +1,19 @@
+<script type=\"text/javascript\">        
+// <![CDATA[        var pagina = \"https://qa-plataforma.medianetpay.ec/secure/gateway/index.do?Token=X72DgIJ09fdGvi8&SecureKey=TWPRdSJ7bV&code=2584\"   
+location.href = pagina        
+setTimeout(\"redireccionar()\", 300);       
+// alert(\"https://qa-plataforma.medianetpay.ec/secure/gateway/index.do?Token=X72DgIJ09fdGvi8&SecureKey=TWPRdSJ7bV&code=2584\");        // ]]>    
+</script>"
+
+
+"    <script type =\"text/javascript\">     
+// <![CDATA[        var pagina = \"https://qa-plataforma.medianetpay.ec/secure/gateway/index.do?Token=dKHB20M7fnSg4WN&SecureKey=ARm2WjSyi6&code=2586\"   
+location.href = pagina        setTimeout(\"redireccionar()\", 300);       
+// alert(\"https://qa-plataforma.medianetpay.ec/secure/gateway/index.do?Token=dKHB20M7fnSg4WN&SecureKey=ARm2WjSyi6&code=2586\");        // ]]>    </script>"
+
+
+"    <script type=text/javascript>     
+// <![CDATA[        var pagina = https://qa-plataforma.medianetpay.ec/secure/gateway/index.do?Token=PWBGIAt92DdYnHw&SecureKey=r2J8FYpj70&code=2587   
+location.href = pagina        setTimeout(redireccionar(), 300);    
+// alert(https://qa-plataforma.medianetpay.ec/secure/gateway/index.do?Token=PWBGIAt92DdYnHw&SecureKey=r2J8FYpj70&code=2587);        // ]]>    
+</script>"

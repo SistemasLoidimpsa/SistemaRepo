@@ -1,0 +1,36 @@
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.AssemblyReference.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csprojAssemblyReference.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Utilitarios\obj\Release\Utilitarios.pdb

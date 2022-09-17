@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9023f6a2d544f50aca45daa4981eca3" Name="Diagram1">
+        <EntityTypeShape EntityType="LOADIMPSAModel.CodigosPromocionales" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.MenuApp" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.ParametrosCorporativos" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.RegistroVentas" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Roles" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.RolesUsuario" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.ServicioTick" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Usuarios" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.AcumulaFOB" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Api" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.BancosContifico" Width="1.5" PointX="8.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Canjeo" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Cantones" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.CatalogoRecompensa" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Clientes" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Cotizaciones" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.CotizacionesLcl" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Empleados" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.EnviosBodega" Width="1.5" PointX="2.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.EnviosBodegaDetalle" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Facturas" Width="1.5" PointX="4.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.HistorialCanjeo" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.HistorialCodigosPromocionales" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.HistorialOrdenInterna" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.ImpuestoDetalle" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.IngPuntos" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.IngresoImpuesto" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Meses" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.OrdenesNegocio" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.PaymentsGet" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.PaymentsPost" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.ProdContifico" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Provincias" Width="1.5" PointX="4.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.RegistroClientesVIP" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.SEGRolesTransaccion" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.TicketDetalle" Width="1.5" PointX="10.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.TiposEnvio" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.TranferenciaBancaria" Width="1.5" PointX="12.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.Transportistas" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="LOADIMPSAModel.FK__SEGRolesTransacc__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="LOADIMPSAModel.FK__SEGRolesTransacc__1ED998B2" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.CupDescCab" Width="1.5" PointX="15.375" PointY="18" />
+        <EntityTypeShape EntityType="LOADIMPSAModel.CupDescDet" Width="1.5" PointX="17.625" PointY="18.125" />
+        <AssociationConnector Association="LOADIMPSAModel.fk_cp_cab" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

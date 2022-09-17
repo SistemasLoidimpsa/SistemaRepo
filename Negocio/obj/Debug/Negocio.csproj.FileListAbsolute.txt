@@ -1,0 +1,147 @@
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Patricio Celi\Desktop\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\ITSQMET\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Negocio.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Negocio.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Datos.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Datos.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Datos.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Entidades.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\Utilitarios.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\obj\Debug\Negocio.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Negocio\obj\Debug\Negocio.pdb

@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LOADIMPSAModelStoreContainer" CdmEntityContainer="LOADIMPSAEntities2">
+    <EntitySetMapping Name="CodigosPromocionales">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.CodigosPromocionales">
+        <MappingFragment StoreEntitySet="CodigosPromocionales">
+          <ScalarProperty Name="codPromocional" ColumnName="codPromocional" />
+          <ScalarProperty Name="fechaInicio" ColumnName="fechaInicio" />
+          <ScalarProperty Name="fechaFin" ColumnName="fechaFin" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="tipoCodigo" ColumnName="tipoCodigo" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="valorVenta" ColumnName="valorVenta" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="limitesUso" ColumnName="limitesUso" />
+          <ScalarProperty Name="valorMaximo" ColumnName="valorMaximo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuApp">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.MenuApp">
+        <MappingFragment StoreEntitySet="MenuApp">
+          <ScalarProperty Name="id_nivel" ColumnName="id_nivel" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_padre" ColumnName="id_padre" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="permisoVisualizacion" ColumnName="permisoVisualizacion" />
+          <ScalarProperty Name="CssFont" ColumnName="CssFont" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParametrosCorporativos">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.ParametrosCorporativos">
+        <MappingFragment StoreEntitySet="ParametrosCorporativos">
+          <ScalarProperty Name="codigoparametro" ColumnName="codigoparametro" />
+          <ScalarProperty Name="nombrecodificado" ColumnName="nombrecodificado" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="valorint" ColumnName="valorint" />
+          <ScalarProperty Name="valorchar" ColumnName="valorchar" />
+          <ScalarProperty Name="valordate" ColumnName="valordate" />
+          <ScalarProperty Name="valordecimal" ColumnName="valordecimal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegistroVentas">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.RegistroVentas">
+        <MappingFragment StoreEntitySet="RegistroVentas">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="FechaVentaEfectiva" ColumnName="FechaVentaEfectiva" />
+          <ScalarProperty Name="fechaRegistroVenta" ColumnName="fechaRegistroVenta" />
+          <ScalarProperty Name="tipoCliente" ColumnName="tipoCliente" />
+          <ScalarProperty Name="tipoDocumento" ColumnName="tipoDocumento" />
+          <ScalarProperty Name="nroDocumento" ColumnName="nroDocumento" />
+          <ScalarProperty Name="valorVenta" ColumnName="valorVenta" />
+          <ScalarProperty Name="tipoVenta" ColumnName="tipoVenta" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="valorComision" ColumnName="valorComision" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="identificacionEjecutivo" ColumnName="identificacionEjecutivo" />
+          <ScalarProperty Name="identificacionCliente" ColumnName="identificacionCliente" />
+          <ScalarProperty Name="descripcionVenta" ColumnName="descripcionVenta" />
+          <ScalarProperty Name="ventaSinIVA" ColumnName="ventaSinIVA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolesUsuario">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.RolesUsuario">
+        <MappingFragment StoreEntitySet="RolesUsuario">
+          <ScalarProperty Name="cod_usu" ColumnName="cod_usu" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="cod_usu" ColumnName="cod_usu" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="cambio_clave" ColumnName="cambio_clave" />
+          <ScalarProperty Name="fecha_cambio_clave" ColumnName="fecha_cambio_clave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cantones">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Cantones">
+        <MappingFragment StoreEntitySet="Cantones">
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="id_cant" ColumnName="id_cant" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="idCasillero" ColumnName="idCasillero" />
+          <ScalarProperty Name="tipoIdentificacion" ColumnName="tipoIdentificacion" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="primerNombre" ColumnName="primerNombre" />
+          <ScalarProperty Name="segundoNombre" ColumnName="segundoNombre" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="sexoID" ColumnName="sexoID" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="provinciaId" ColumnName="provinciaId" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="cantonId" ColumnName="cantonId" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+          <ScalarProperty Name="direccionEntrega" ColumnName="direccionEntrega" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="campoMarketing" ColumnName="campoMarketing" />
+          <ScalarProperty Name="idEjecutivoCuenta" ColumnName="idEjecutivoCuenta" />
+          <ScalarProperty Name="fechaRegistroCliente" ColumnName="fechaRegistroCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cotizaciones">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Cotizaciones">
+        <MappingFragment StoreEntitySet="Cotizaciones">
+          <ScalarProperty Name="idCotizacion" ColumnName="idCotizacion" />
+          <ScalarProperty Name="categoriCotizacion" ColumnName="categoriCotizacion" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="descripcionMercancia" ColumnName="descripcionMercancia" />
+          <ScalarProperty Name="valorFof" ColumnName="valorFof" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="servicioCourier" ColumnName="servicioCourier" />
+          <ScalarProperty Name="totalEnvio" ColumnName="totalEnvio" />
+          <ScalarProperty Name="fechaCotizacion" ColumnName="fechaCotizacion" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="nacionalizacion" ColumnName="nacionalizacion" />
+          <ScalarProperty Name="fleteInternacional" ColumnName="fleteInternacional" />
+          <ScalarProperty Name="envioDomicilio" ColumnName="envioDomicilio" />
+          <ScalarProperty Name="impuestoSenae" ColumnName="impuestoSenae" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnviosBodega">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.EnviosBodega">
+        <MappingFragment StoreEntitySet="EnviosBodega">
+          <ScalarProperty Name="idEnvio" ColumnName="idEnvio" />
+          <ScalarProperty Name="tipoEntrega" ColumnName="tipoEntrega" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="archivoPago" ColumnName="archivoPago" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="identificacionCliente" ColumnName="identificacionCliente" />
+          <ScalarProperty Name="estadoOrden" ColumnName="estadoOrden" />
+          <ScalarProperty Name="totalPesoEnvio" ColumnName="totalPesoEnvio" />
+          <ScalarProperty Name="pagoTotalEnvio" ColumnName="pagoTotalEnvio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenesNegocio">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.OrdenesNegocio">
+        <MappingFragment StoreEntitySet="OrdenesNegocio">
+          <ScalarProperty Name="numeroOrdenInterno" ColumnName="numeroOrdenInterno" />
+          <ScalarProperty Name="tracking" ColumnName="tracking" />
+          <ScalarProperty Name="cedulaCliente" ColumnName="cedulaCliente" />
+          <ScalarProperty Name="idTransportista" ColumnName="idTransportista" />
+          <ScalarProperty Name="nombreTransportista" ColumnName="nombreTransportista" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="estadoInicialOrden" ColumnName="estadoInicialOrden" />
+          <ScalarProperty Name="fechaRecibidoMiami" ColumnName="fechaRecibidoMiami" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="idEjecutivoCuenta" ColumnName="idEjecutivoCuenta" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="imgFactura" ColumnName="imgFactura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provincias">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Provincias">
+        <MappingFragment StoreEntitySet="Provincias">
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transportistas">
+      <EntityTypeMapping TypeName="LOADIMPSAModel.Transportistas">
+        <MappingFragment StoreEntitySet="Transportistas">
+          <ScalarProperty Name="idTransportista" ColumnName="idTransportista" />
+          <ScalarProperty Name="nombreTransportista" ColumnName="nombreTransportista" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="LOADIMPSAModel.Store.Split" FunctionImportName="Split">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.Split_Result">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_actualiza_clientes" FunctionName="LOADIMPSAModel.Store.sp_actualiza_clientes" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_direccion" FunctionName="LOADIMPSAModel.Store.sp_actualiza_direccion" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_empleados" FunctionName="LOADIMPSAModel.Store.sp_actualiza_empleados" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_estado_ventas" FunctionName="LOADIMPSAModel.Store.sp_actualiza_estado_ventas" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_orden_check_out" FunctionName="LOADIMPSAModel.Store.sp_actualiza_orden_check_out" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_orden_interna" FunctionName="LOADIMPSAModel.Store.sp_actualiza_orden_interna" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_parametros_corporativos" FunctionName="LOADIMPSAModel.Store.sp_actualiza_parametros_corporativos" />
+    <FunctionImportMapping FunctionImportName="sp_actualiza_password" FunctionName="LOADIMPSAModel.Store.sp_actualiza_password" />
+    <FunctionImportMapping FunctionImportName="sp_busca_clientes" FunctionName="LOADIMPSAModel.Store.sp_busca_clientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_busca_clientes_Result">
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_buscar_cliente" FunctionName="LOADIMPSAModel.Store.sp_buscar_cliente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_buscar_cliente_Result">
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_buscar_empleado" FunctionName="LOADIMPSAModel.Store.sp_buscar_empleado">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_buscar_empleado_Result">
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_buscar_estudiante" FunctionName="LOADIMPSAModel.Store.sp_buscar_estudiante">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_buscar_estudiante_Result">
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_buscar_parametros_corporativos" FunctionName="LOADIMPSAModel.Store.sp_buscar_parametros_corporativos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_buscar_parametros_corporativos_Result">
+          <ScalarProperty Name="codigoparametro" ColumnName="codigoparametro" />
+          <ScalarProperty Name="nombrecodificado" ColumnName="nombrecodificado" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="valorint" ColumnName="valorint" />
+          <ScalarProperty Name="valorchar" ColumnName="valorchar" />
+          <ScalarProperty Name="valordate" ColumnName="valordate" />
+          <ScalarProperty Name="valordecimal" ColumnName="valordecimal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_cambio_estado_orden_administrador" FunctionName="LOADIMPSAModel.Store.sp_cambio_estado_orden_administrador" />
+    <FunctionImportMapping FunctionImportName="sp_cambio_estado_usuario" FunctionName="LOADIMPSAModel.Store.sp_cambio_estado_usuario" />
+    <FunctionImportMapping FunctionImportName="sp_cantones_provincia" FunctionName="LOADIMPSAModel.Store.sp_cantones_provincia">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_cantones_provincia_Result">
+          <ScalarProperty Name="id_cant" ColumnName="id_cant" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_clientes" FunctionName="LOADIMPSAModel.Store.sp_clientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_clientes_Result">
+          <ScalarProperty Name="idCasillero" ColumnName="idCasillero" />
+          <ScalarProperty Name="tipoIdentificacion" ColumnName="tipoIdentificacion" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="primerNombre" ColumnName="primerNombre" />
+          <ScalarProperty Name="segundoNombre" ColumnName="segundoNombre" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="sexoID" ColumnName="sexoID" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="provinciaId" ColumnName="provinciaId" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="cantonId" ColumnName="cantonId" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+          <ScalarProperty Name="direccionEntrega" ColumnName="direccionEntrega" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="campoMarketing" ColumnName="campoMarketing" />
+          <ScalarProperty Name="idEjecutivoCuenta" ColumnName="idEjecutivoCuenta" />
+          <ScalarProperty Name="fechaRegistroCliente" ColumnName="fechaRegistroCliente" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_crear_usuarios" FunctionName="LOADIMPSAModel.Store.sp_crear_usuarios" />
+    <FunctionImportMapping FunctionImportName="sp_datos_clientes_actualizacion" FunctionName="LOADIMPSAModel.Store.sp_datos_clientes_actualizacion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_datos_clientes_actualizacion_Result">
+          <ScalarProperty Name="idCasillero" ColumnName="idCasillero" />
+          <ScalarProperty Name="tipoIdentificacion" ColumnName="tipoIdentificacion" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="primerNombre" ColumnName="primerNombre" />
+          <ScalarProperty Name="segundoNombre" ColumnName="segundoNombre" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="sexoID" ColumnName="sexoID" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="provinciaId" ColumnName="provinciaId" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="cantonId" ColumnName="cantonId" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+          <ScalarProperty Name="direccionEntrega" ColumnName="direccionEntrega" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="campoMarketing" ColumnName="campoMarketing" />
+          <ScalarProperty Name="idEjecutivoCuenta" ColumnName="idEjecutivoCuenta" />
+          <ScalarProperty Name="fechaRegistroCliente" ColumnName="fechaRegistroCliente" />
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_datos_empleados_actualizacion" FunctionName="LOADIMPSAModel.Store.sp_datos_empleados_actualizacion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_datos_empleados_actualizacion_Result">
+          <ScalarProperty Name="tipoIdentificacion" ColumnName="tipoIdentificacion" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="primerNombre" ColumnName="primerNombre" />
+          <ScalarProperty Name="segundoNombre" ColumnName="segundoNombre" />
+          <ScalarProperty Name="primerApellido" ColumnName="primerApellido" />
+          <ScalarProperty Name="segundoApellido" ColumnName="segundoApellido" />
+          <ScalarProperty Name="sexoID" ColumnName="sexoID" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ejecutivos_cuenta" FunctionName="LOADIMPSAModel.Store.sp_ejecutivos_cuenta">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_ejecutivos_cuenta_Result">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_elimina_orden_administrador" FunctionName="LOADIMPSAModel.Store.sp_elimina_orden_administrador" />
+    <FunctionImportMapping FunctionImportName="sp_eliminar_clientes" FunctionName="LOADIMPSAModel.Store.sp_eliminar_clientes" />
+    <FunctionImportMapping FunctionImportName="sp_generar_orden" FunctionName="LOADIMPSAModel.Store.sp_generar_orden" />
+    <FunctionImportMapping FunctionImportName="sp_generar_orden_detalle" FunctionName="LOADIMPSAModel.Store.sp_generar_orden_detalle" />
+    <FunctionImportMapping FunctionImportName="sp_historial_tracking" FunctionName="LOADIMPSAModel.Store.sp_historial_tracking">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_historial_tracking_Result">
+          <ScalarProperty Name="numeroOrdenInterno" ColumnName="numeroOrdenInterno" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estadoOrden" ColumnName="estadoOrden" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_inserta_cotizacion" FunctionName="LOADIMPSAModel.Store.sp_inserta_cotizacion" />
+    <FunctionImportMapping FunctionImportName="sp_inserta_empleado" FunctionName="LOADIMPSAModel.Store.sp_inserta_empleado" />
+    <FunctionImportMapping FunctionImportName="sp_inserta_orden_interna" FunctionName="LOADIMPSAModel.Store.sp_inserta_orden_interna" />
+    <FunctionImportMapping FunctionImportName="sp_insertar_clientes" FunctionName="LOADIMPSAModel.Store.sp_insertar_clientes" />
+    <FunctionImportMapping FunctionImportName="sp_lista_parametros_corporativos" FunctionName="LOADIMPSAModel.Store.sp_lista_parametros_corporativos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_lista_parametros_corporativos_Result">
+          <ScalarProperty Name="codigoparametro" ColumnName="codigoparametro" />
+          <ScalarProperty Name="nombrecodificado" ColumnName="nombrecodificado" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="valorint" ColumnName="valorint" />
+          <ScalarProperty Name="valorchar" ColumnName="valorchar" />
+          <ScalarProperty Name="valordate" ColumnName="valordate" />
+          <ScalarProperty Name="valordecimal" ColumnName="valordecimal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listado_clientes_empleado" FunctionName="LOADIMPSAModel.Store.sp_listado_clientes_empleado">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_listado_clientes_empleado_Result">
+          <ScalarProperty Name="idCasillero" ColumnName="idCasillero" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="canton" ColumnName="canton" />
+          <ScalarProperty Name="direccionEntrega" ColumnName="direccionEntrega" />
+          <ScalarProperty Name="idEjecutivoCuenta" ColumnName="idEjecutivoCuenta" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listado_trackings_filtros" FunctionName="LOADIMPSAModel.Store.sp_listado_trackings_filtros">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_listado_trackings_filtros_Result">
+          <ScalarProperty Name="numeroOrdenInterno" ColumnName="numeroOrdenInterno" />
+          <ScalarProperty Name="tracking" ColumnName="tracking" />
+          <ScalarProperty Name="cedulaCliente" ColumnName="cedulaCliente" />
+          <ScalarProperty Name="idTransportista" ColumnName="idTransportista" />
+          <ScalarProperty Name="nombreTransportista" ColumnName="nombreTransportista" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="estadoInicialOrden" ColumnName="estadoInicialOrden" />
+          <ScalarProperty Name="fechaRecibidoMiami" ColumnName="fechaRecibidoMiami" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="idEjecutivoCuenta" ColumnName="idEjecutivoCuenta" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="imgFactura" ColumnName="imgFactura" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listado_usuarios" FunctionName="LOADIMPSAModel.Store.sp_listado_usuarios">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_listado_usuarios_Result">
+          <ScalarProperty Name="cod_usu" ColumnName="cod_usu" />
+          <ScalarProperty Name="numeroIdentificacion" ColumnName="numeroIdentificacion" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_listado_ventas_ejecutivo" FunctionName="LOADIMPSAModel.Store.sp_listado_ventas_ejecutivo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_listado_ventas_ejecutivo_Result">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="FechaVentaEfectiva" ColumnName="FechaVentaEfectiva" />
+          <ScalarProperty Name="fechaRegistroVenta" ColumnName="fechaRegistroVenta" />
+          <ScalarProperty Name="tipoCliente" ColumnName="tipoCliente" />
+          <ScalarProperty Name="tipoDocumento" ColumnName="tipoDocumento" />
+          <ScalarProperty Name="nroDocumento" ColumnName="nroDocumento" />
+          <ScalarProperty Name="valorVenta" ColumnName="valorVenta" />
+          <ScalarProperty Name="tipoVenta" ColumnName="tipoVenta" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="valorComision" ColumnName="valorComision" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="identificacionEjecutivo" ColumnName="identificacionEjecutivo" />
+          <ScalarProperty Name="identificacionCliente" ColumnName="identificacionCliente" />
+          <ScalarProperty Name="descripcionVenta" ColumnName="descripcionVenta" />
+          <ScalarProperty Name="ventaSinIVA" ColumnName="ventaSinIVA" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_menu" FunctionName="LOADIMPSAModel.Store.sp_menu">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_menu_Result">
+          <ScalarProperty Name="id_nivel" ColumnName="id_nivel" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_padre" ColumnName="id_padre" />
+          <ScalarProperty Name="url" ColumnName="url" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_menu_nuevo" FunctionName="LOADIMPSAModel.Store.sp_menu_nuevo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_menu_nuevo_Result">
+          <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+          <ScalarProperty Name="ParentMenuId" ColumnName="ParentMenuId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="CssFont" ColumnName="CssFont" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_orden_envio" FunctionName="LOADIMPSAModel.Store.sp_orden_envio">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_orden_envio_Result">
+          <ScalarProperty Name="idEnvio" ColumnName="idEnvio" />
+          <ScalarProperty Name="tipoEntrega" ColumnName="tipoEntrega" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="EjecutivoCuenta" ColumnName="EjecutivoCuenta" />
+          <ScalarProperty Name="totalPesoEnvio" ColumnName="totalPesoEnvio" />
+          <ScalarProperty Name="pagoTotalEnvio" ColumnName="pagoTotalEnvio" />
+          <ScalarProperty Name="estadoOrden" ColumnName="estadoOrden" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_orden_envio_detalle" FunctionName="LOADIMPSAModel.Store.sp_orden_envio_detalle">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_orden_envio_detalle_Result">
+          <ScalarProperty Name="idOrden" ColumnName="idOrden" />
+          <ScalarProperty Name="cedulaCliente" ColumnName="cedulaCliente" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="tracking" ColumnName="tracking" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_provincias" FunctionName="LOADIMPSAModel.Store.sp_provincias">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_provincias_Result">
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_recupera_clave_mail" FunctionName="LOADIMPSAModel.Store.sp_recupera_clave_mail" />
+    <FunctionImportMapping FunctionImportName="sp_registro_venta_comision" FunctionName="LOADIMPSAModel.Store.sp_registro_venta_comision" />
+    <FunctionImportMapping FunctionImportName="sp_reporte_clientes" FunctionName="LOADIMPSAModel.Store.sp_reporte_clientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_reporte_clientes_Result">
+          <ScalarProperty Name="mes" ColumnName="mes" />
+          <ScalarProperty Name="cantidadClientMes" ColumnName="cantidadClientMes" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_reporte_cotizaciones" FunctionName="LOADIMPSAModel.Store.sp_reporte_cotizaciones">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_reporte_cotizaciones_Result">
+          <ScalarProperty Name="idCotizacion" ColumnName="idCotizacion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="descripcionMercancia" ColumnName="descripcionMercancia" />
+          <ScalarProperty Name="valorFof" ColumnName="valorFof" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="servicioCourier" ColumnName="servicioCourier" />
+          <ScalarProperty Name="totalEnvio" ColumnName="totalEnvio" />
+          <ScalarProperty Name="fechaCotizacion" ColumnName="fechaCotizacion" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="nacionalizacion" ColumnName="nacionalizacion" />
+          <ScalarProperty Name="fleteInternacional" ColumnName="fleteInternacional" />
+          <ScalarProperty Name="envioDomicilio" ColumnName="envioDomicilio" />
+          <ScalarProperty Name="impuestoSenae" ColumnName="impuestoSenae" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_reseteo_clave" FunctionName="LOADIMPSAModel.Store.sp_reseteo_clave" />
+    <FunctionImportMapping FunctionImportName="sp_reverso_estado_orden_administrador" FunctionName="LOADIMPSAModel.Store.sp_reverso_estado_orden_administrador" />
+    <FunctionImportMapping FunctionImportName="sp_roles_administrativos" FunctionName="LOADIMPSAModel.Store.sp_roles_administrativos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_roles_administrativos_Result">
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_trackings_cliente" FunctionName="LOADIMPSAModel.Store.sp_trackings_cliente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_trackings_cliente_Result">
+          <ScalarProperty Name="numeroOrdenInterno" ColumnName="numeroOrdenInterno" />
+          <ScalarProperty Name="tracking" ColumnName="tracking" />
+          <ScalarProperty Name="idTransportista" ColumnName="idTransportista" />
+          <ScalarProperty Name="nombreTransportista" ColumnName="nombreTransportista" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="fechaRecibidoMiami" ColumnName="fechaRecibidoMiami" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_trackings_cliente_estados" FunctionName="LOADIMPSAModel.Store.sp_trackings_cliente_estados">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_trackings_cliente_estados_Result">
+          <ScalarProperty Name="numeroOrdenInterno" ColumnName="numeroOrdenInterno" />
+          <ScalarProperty Name="tracking" ColumnName="tracking" />
+          <ScalarProperty Name="idTransportista" ColumnName="idTransportista" />
+          <ScalarProperty Name="nombreTransportista" ColumnName="nombreTransportista" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="fechaRecibidoMiami" ColumnName="fechaRecibidoMiami" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_transferir_cliente_empleado" FunctionName="LOADIMPSAModel.Store.sp_transferir_cliente_empleado" />
+    <FunctionImportMapping FunctionImportName="sp_transportistas" FunctionName="LOADIMPSAModel.Store.sp_transportistas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_transportistas_Result">
+          <ScalarProperty Name="idTransportista" ColumnName="idTransportista" />
+          <ScalarProperty Name="nombreTransportista" ColumnName="nombreTransportista" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_valida_usuario_ingresa" FunctionName="LOADIMPSAModel.Store.sp_valida_usuario_ingresa">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_valida_usuario_ingresa_Result">
+          <ScalarProperty Name="cod_usu" ColumnName="cod_usu" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="cambio_clave" ColumnName="cambio_clave" />
+          <ScalarProperty Name="fecha_cambio_clave" ColumnName="fecha_cambio_clave" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="direccionEntrega" ColumnName="direccionEntrega" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ventas_ejecutivo" FunctionName="LOADIMPSAModel.Store.sp_ventas_ejecutivo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_ventas_ejecutivo_Result">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="FechaVentaEfectiva" ColumnName="FechaVentaEfectiva" />
+          <ScalarProperty Name="fechaRegistroVenta" ColumnName="fechaRegistroVenta" />
+          <ScalarProperty Name="tipoCliente" ColumnName="tipoCliente" />
+          <ScalarProperty Name="tipoDocumento" ColumnName="tipoDocumento" />
+          <ScalarProperty Name="nroDocumento" ColumnName="nroDocumento" />
+          <ScalarProperty Name="valorVenta" ColumnName="valorVenta" />
+          <ScalarProperty Name="tipoVenta" ColumnName="tipoVenta" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="valorComision" ColumnName="valorComision" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="identificacionEjecutivo" ColumnName="identificacionEjecutivo" />
+          <ScalarProperty Name="identificacionCliente" ColumnName="identificacionCliente" />
+          <ScalarProperty Name="descripcionVenta" ColumnName="descripcionVenta" />
+          <ScalarProperty Name="ventaSinIVA" ColumnName="ventaSinIVA" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ventas_ejecutivo_reporte" FunctionName="LOADIMPSAModel.Store.sp_ventas_ejecutivo_reporte">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LOADIMPSAModel.sp_ventas_ejecutivo_reporte_Result">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="FechaVentaEfectiva" ColumnName="FechaVentaEfectiva" />
+          <ScalarProperty Name="fechaRegistroVenta" ColumnName="fechaRegistroVenta" />
+          <ScalarProperty Name="tipoCliente" ColumnName="tipoCliente" />
+          <ScalarProperty Name="tipoDocumento" ColumnName="tipoDocumento" />
+          <ScalarProperty Name="nroDocumento" ColumnName="nroDocumento" />
+          <ScalarProperty Name="valorVenta" ColumnName="valorVenta" />
+          <ScalarProperty Name="tipoVenta" ColumnName="tipoVenta" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="valorComision" ColumnName="valorComision" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="identificacionEjecutivo" ColumnName="identificacionEjecutivo" />
+          <ScalarProperty Name="identificacionCliente" ColumnName="identificacionCliente" />
+          <ScalarProperty Name="descripcionVenta" ColumnName="descripcionVenta" />
+          <ScalarProperty Name="ventaSinIVA" ColumnName="ventaSinIVA" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

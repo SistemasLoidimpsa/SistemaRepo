@@ -1,0 +1,494 @@
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.AssemblyReference.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.AssemblyReference.cache
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.xml
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Razor.resources.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll.config
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csprojAssemblyReference.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll.config
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Razor.resources.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Razor.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.AssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\LOADIMPSA.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.exe.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\csc.rsp
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\csi.rsp
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.AppContext.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.exe.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\vbc.rsp
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\AjaxControlToolkit.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\BouncyCastle.Crypto.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\itextsharp.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Datos.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Entidades.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Negocio.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Negocio.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\DocumentFormat.OpenXml.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\ExcelDataReader.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\ExcelNumberFormat.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\itextsharp.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Newtonsoft.Json.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.Helpers.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.Mvc.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.Razor.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\System.Web.WebPages.Razor.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Datos.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Datos.dll.config
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\Utilitarios.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\EntityFramework.xml
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Helpers.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Mvc.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.Razor.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.AssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CoreCompileInputs.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.csproj.CopyComplete
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\LOADIMPSA\obj\Release\LOADIMPSA.pdb

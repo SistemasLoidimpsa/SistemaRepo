@@ -1,0 +1,42 @@
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+C:\Users\usuario\Desktop\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+C:\Users\usuario\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+D:\PROYECTOS\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb
+C:\Users\kerly\Desktop\LOIDIMPSA\Proyecto LOIDIMPSA\Proyecto LOIDIMPSA\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\emartillo\Documents\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+C:\Users\emartillo\Documents\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb
+C:\Users\emartillo\Documents\ProyectoEnvios\Entidades\obj\Release\Entidades.csprojAssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\Entidades\bin\Release\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\Entidades\bin\Release\Entidades.pdb
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\Entidades\obj\Release\Entidades.dll
+C:\Users\GIZLOCP045\Downloads\proyectoEnvios\ProyectoEnviosv1-Emmanuel2\ProyectoEnvios\Entidades\obj\Release\Entidades.pdb

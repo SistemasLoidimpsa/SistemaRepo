@@ -1,0 +1,369 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="LOIDIMPSA.Menu" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="icon" type="image/png" href="images/iconWeb.ico" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="js/font-awesome.min.css">
+    <link rel="stylesheet" href="js/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+
+
+
+
+    <style>
+        .label1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .label2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            font-size: 15px;
+        }
+
+        .label3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .label4 {
+            font-family: 'Montserrat', sans-serif;
+            color: #FFFFFF;
+            font-size: 16pt;
+        }
+
+        .label5 {
+            font-family: 'Montserrat', sans-serif;
+            color: #0b1833;
+            font-size: 14pt;
+        }
+
+        body, html {
+            height: 100%;
+            background-repeat: no-repeat;
+            background: url(../images/fondo.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+
+  
+</head>
+<body cssclass="body, html">
+    <%-- Menu franja superior --%>
+    <nav class="navbar navbar-default" role="navigation" style="background: #1d4289; font-weight: bolder; color: white; font-size: 15px; flood-color: white;">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <div style="width: 300px; height: 100px">
+                    </div>
+                </li>
+                <li>
+                    <br />
+                    <br />
+
+                    <br>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <br />
+                    <asp:Label ID="Lblnombre" runat="server" CssClass="label1" ForeColor="White"></asp:Label><br />
+                    <asp:Label ID="lblRol" runat="server" Font-Underline="false" CssClass="label2" ForeColor="White"></asp:Label><br />
+                    <asp:Label ID="lblCedula" runat="server" CssClass="label3" ForeColor="White"></asp:Label><br />
+                <asp:Label ID="lblCasillero" runat="server" CssClass="label3" ForeColor="White"></asp:Label><br />
+                    <asp:Label ID="lblPuntos" runat="server" CssClass="label3" ForeColor="White"></asp:Label><br />
+
+                </li>
+                <li style="padding: 10px">
+                    <%--  <a href="Inicio.aspx" onmouseover="this.style.color='#E30613'" onmouseout="this.style.color='white'" style="color: white">CERRAR SESION</a>--%>
+                    <a href="Home.aspx">
+                        <img src="images/salir.png" />
+                    </a>
+                </li>
+                <%--<li><a href="Inicio.aspx" onmouseover="this.style.color='#E30613'" onmouseout="this.style.color='white'" style="color: white">CERRAR SESION</a></li>--%>
+            </ul>
+        </div>
+
+    </nav>
+
+    <form id="form1" runat="server">
+
+        <style type="text/css">
+            .contenido {
+                width: 83%;
+                float: right;
+            }
+
+            .nav-side-menu {
+                overflow: auto;
+                font-family: Montserrat, sans-serif;
+                font-size: 10px;
+                font-weight: 200;
+                background-color: #1d4289;
+                position: fixed;
+                top: 0px;
+                width: 230px;
+                height: 100%;
+                color: #e1ffff;
+            }
+
+                .nav-side-menu .brand {
+                    background-color: #2c4d67;
+                    line-height: 50px;
+                    display: block;
+                    text-align: center;
+                    font-size: 14px;
+                }
+
+                .nav-side-menu .toggle-btn {
+                    display: none;
+                }
+
+                .nav-side-menu ul, .nav-side-menu li {
+                    list-style: none;
+                    padding: 0px;
+                    margin: 0px;
+                    line-height: 35px;
+                    cursor: pointer;
+                }
+
+
+                    .nav-side-menu ul :not(collapsed) .arrow:before, .nav-side-menu li :not(collapsed) .arrow:before {
+                        font-family: FontAwesome;
+                        content: "\f078";
+                        display: inline-block;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        vertical-align: middle;
+                        float: right;
+                    }
+
+                    .nav-side-menu ul .active, .nav-side-menu li .active {
+                        border-left: 3px solid #646566;
+                        background-color: #2c4d67;
+                    }
+
+                    .nav-side-menu ul .sub-menu li.active, .nav-side-menu li .sub-menu li.active {
+                        color: #d19b3d;
+                    }
+
+                        .nav-side-menu ul .sub-menu li.active a, .nav-side-menu li .sub-menu li.active a {
+                            color: #d19b3d;
+                        }
+
+                    .nav-side-menu ul .sub-menu li, .nav-side-menu li .sub-menu li {
+                        background-color: #0b1833;
+                        border: none;
+                        line-height: 28px;
+                        border-bottom: 1px solid #23282e;
+                        margin-left: 0px;
+                    }
+
+                        .nav-side-menu ul .sub-menu li:hover, .nav-side-menu li .sub-menu li:hover {
+                            background-color: #646566;
+                        }
+
+                        .nav-side-menu ul .sub-menu li:before, .nav-side-menu li .sub-menu li:before {
+                            font-family: FontAwesome;
+                            content: "\f105";
+                            display: inline-block;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            vertical-align: middle;
+                        }
+
+                .nav-side-menu li {
+                    padding-left: 0px;
+                    border-left: 3px solid #2e353d;
+                    border-bottom: 1px solid #23282e;
+                }
+
+                    .nav-side-menu li a {
+                        text-decoration: none;
+                        color: #e1ffff;
+                    }
+
+                        .nav-side-menu li a i {
+                            padding-left: 10px;
+                            width: 20px;
+                            padding-right: 20px;
+                        }
+
+                    .nav-side-menu li:hover {
+                        border-left: 3px solid #d19b3d;
+                        background-color: #4f5b69;
+                        -webkit-transition: all 1s ease;
+                        -moz-transition: all 1s ease;
+                        -o-transition: all 1s ease;
+                        -ms-transition: all 1s ease;
+                        transition: all 1s ease;
+                    }
+
+            @media only screen and (max-width: 1000px) {
+                .nav-side-menu {
+                    position: relative;
+                    width: 100%;
+                    font-size: 22px;
+                    font-weight: 300;
+                    margin-bottom: 10px;
+                    padding: 1em;
+                    height: 100%;
+                }
+
+                .nav-side-menu .toggle-btn {
+                        display: block;
+                        cursor: pointer;
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10 !important;
+                        padding: 3px;
+                        background-color: #1A588E;
+                        color: white;
+                        width: 80px;
+                        text-align: center;
+                }
+
+                .brand {
+                    text-align: left !important;
+                    font-size: 22px;
+                    width: 20%;
+                    padding-left: 10px;
+                    line-height: 50px !important;
+                }
+
+                .contenido {
+                    width: 100%;
+                }
+
+                .nodisplay {
+                    display: none;
+                }
+            }
+
+            @media (min-width: 1000px) {
+                .nav-side-menu .menu-list .menu-content {
+                    display: block;
+                }
+            }
+
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+            rel="stylesheet">
+        <script type="text/javascript">
+            $(function () {
+                $('li[data-toggle="collapse"]').each(function () {
+                    if ($(this).next('ul').length == 0) {
+                        $(this).removeAttr('data-toggle').removeAttr('data-target').removeClass('collapsed');
+                        $(this).find('span.arrow').remove();
+                        //console.log("Estoy en el if si el tamano de ul es 0")
+                    }
+                    //console.log("Estoy en li")
+                });
+                $('ul#menu-content > ul').on('show.bs.collapse', function (e, obj) {
+                    $("ul#menu-content > ul").not(this).removeClass("in");
+                    var currentHead = $(this).prev("li");
+                    $("ul#menu-content > li").not(currentHead).removeClass("active");
+                    $(currentHead).addClass("active");
+                    //console.log("Estoy en ul")
+                })
+            });
+        </script>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Path="~/PopUp.js" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <div class="nav-side-menu">
+                    <div class="brand" style="background-color: #1d4289; padding: 25px">
+                        <asp:ImageButton ID="ImageButton1" ImageUrl="~/images/LogoBlanco.png" OnClick="ImageButton1_Click" Width="100%" runat="server" />
+                    </div>
+                    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                    <div class="menu-list">
+                        <ul id="menu-content" class="menu-content collapse out">
+                            <asp:Repeater ID="rptCategories" runat="server" OnItemDataBound="rptMenu_OnItemBound">
+                                <ItemTemplate>
+                                    <li data-toggle="collapse" data-target='#<%#Eval("Title") %>' class="collapsed"><a
+                                        href='<%#Eval("Url") %>'><i class='<%#Eval("CssFont") %>'></i>
+                                        <%#Eval("Title") %><span class="arrow"></span></a> </li>
+                                    <asp:Literal ID="ltrlSubMenu" runat="server"></asp:Literal>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <br />
+                            <div style="vertical-align: bottom" align="center">
+                                <asp:Image ID="imgMenu" runat="server" Width="70%" />
+
+                            </div>
+                            <br />
+                            <div style="vertical-align: bottom" align="center">
+                                <asp:HyperLink ID="fb"
+                                    ImageUrl="~/images/face2.png" Width="15%"
+                                    NavigateUrl="https://www.facebook.com/loidimpsaexpress/"
+                                    Text="Facebook"
+                                    Target="_new"
+                                    runat="server" />
+                                <asp:HyperLink ID="insta"
+                                    ImageUrl="~/images/insta2.png" Width="15%"
+                                    NavigateUrl="https://www.instagram.com/loidimpsaexpress/"
+                                    Text="Instagram"
+                                    Target="_new"
+                                    runat="server" />
+                                <asp:HyperLink ID="tiktok"
+                                    ImageUrl="~/images/tiktok2.png" Width="15%"
+                                    NavigateUrl="https://www.tiktok.com/@loidimpsaexpress"
+                                    Text="TikTok"
+                                    Target="_new"
+                                    runat="server" />
+                                <div align="center">
+                                    <asp:HyperLink ID="pagina"
+                                        NavigateUrl="https://loidimpsa.com/"
+                                        Text="www.loidimpsa.com"
+                                        Target="_new"
+                                        runat="server"
+                                        Font-Size="9pt"
+                                        CssClass="label4" /><br />
+                                    <asp:Label ID="Label1" CssClass="label5" runat="server" Text="Desarrollado por:" Font-Size="8pt"></asp:Label>
+                                    <div style="background-color: #1d4289; padding: 0px">
+                                        <asp:ImageButton ID="ImageButton2" ImageUrl="~/images/Logo2.png" Width="30%" runat="server" />
+                                    </div>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </ContentTemplate>
+            <Triggers>
+                <asp:PostBackTrigger ControlID="rptCategories" />
+            </Triggers>
+        </asp:UpdatePanel>
+        <div class="contenido">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

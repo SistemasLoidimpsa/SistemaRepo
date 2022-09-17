@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LOADIMPSAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <ComplexType Name="Split_Result">
+    <Property Name="Value" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+  </ComplexType>
+  <EntityType Name="CodigosPromocionales">
+    <Key>
+      <PropertyRef Name="codPromocional" />
+    </Key>
+    <Property Name="codPromocional" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaInicio" Type="DateTime" Precision="0" />
+    <Property Name="fechaFin" Type="DateTime" Precision="0" />
+    <Property Name="estado" Type="Boolean" />
+    <Property Name="tipoCodigo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Precision="0" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="valorVenta" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="descuento" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="limitesUso" Type="Int32" />
+    <Property Name="valorMaximo" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="MenuApp">
+    <Key>
+      <PropertyRef Name="id_nivel" />
+      <PropertyRef Name="descripcion" />
+    </Key>
+    <Property Name="id_nivel" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id_padre" Type="Int32" />
+    <Property Name="url" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="estado" Type="Boolean" />
+    <Property Name="permisoVisualizacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CssFont" Type="String" MaxLength="220" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ParametrosCorporativos">
+    <Key>
+      <PropertyRef Name="codigoparametro" />
+    </Key>
+    <Property Name="codigoparametro" Type="Int32" Nullable="false" />
+    <Property Name="nombrecodificado" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="valorint" Type="Int32" />
+    <Property Name="valorchar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="valordate" Type="DateTime" Precision="3" />
+    <Property Name="valordecimal" Type="Decimal" Precision="12" Scale="8" />
+  </EntityType>
+  <EntityType Name="RegistroVentas">
+    <Key>
+      <PropertyRef Name="idVenta" />
+    </Key>
+    <Property Name="idVenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FechaVentaEfectiva" Type="DateTime" Precision="0" />
+    <Property Name="fechaRegistroVenta" Type="DateTime" Precision="3" />
+    <Property Name="tipoCliente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="tipoDocumento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nroDocumento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="valorVenta" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="tipoVenta" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="porcentaje" Type="Int32" />
+    <Property Name="valorComision" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="identificacionEjecutivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="identificacionCliente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="descripcionVenta" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ventaSinIVA" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id_rol" />
+      <PropertyRef Name="descripcion" />
+    </Key>
+    <Property Name="id_rol" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolesUsuario">
+    <Key>
+      <PropertyRef Name="cod_usu" />
+      <PropertyRef Name="identificacion" />
+      <PropertyRef Name="id_rol" />
+    </Key>
+    <Property Name="cod_usu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id_rol" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="cod_usu" />
+    </Key>
+    <Property Name="cod_usu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="identificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="cambio_clave" Type="Boolean" />
+    <Property Name="fecha_cambio_clave" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Cantones">
+    <Key>
+      <PropertyRef Name="id_prov" />
+      <PropertyRef Name="id_cant" />
+      <PropertyRef Name="canton" />
+    </Key>
+    <Property Name="id_prov" Type="String" MaxLength="2" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id_cant" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="canton" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="idCasillero" />
+    </Key>
+    <Property Name="idCasillero" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tipoIdentificacion" Type="Int32" />
+    <Property Name="numeroIdentificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="primerNombre" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="segundoNombre" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="primerApellido" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="segundoApellido" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="sexoID" Type="Int32" />
+    <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="celular" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="provinciaId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="provincia" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="cantonId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="canton" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="direccionEntrega" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="fechaNacimiento" Type="DateTime" Precision="0" />
+    <Property Name="campoMarketing" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="idEjecutivoCuenta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistroCliente" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Cotizaciones">
+    <Key>
+      <PropertyRef Name="idCotizacion" />
+    </Key>
+    <Property Name="idCotizacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="categoriCotizacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="numeroIdentificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="descripcionMercancia" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="valorFof" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="peso" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="servicioCourier" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="totalEnvio" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="fechaCotizacion" Type="DateTime" Precision="3" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nacionalizacion" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="fleteInternacional" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="envioDomicilio" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="impuestoSenae" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="EnviosBodega">
+    <Key>
+      <PropertyRef Name="idEnvio" />
+    </Key>
+    <Property Name="idEnvio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tipoEntrega" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Precision="3" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="archivoPago" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="categoria" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="observacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="identificacionCliente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="estadoOrden" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="totalPesoEnvio" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="pagoTotalEnvio" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="OrdenesNegocio">
+    <Key>
+      <PropertyRef Name="fechaRegistro" />
+    </Key>
+    <Property Name="numeroOrdenInterno" Type="Int32" />
+    <Property Name="tracking" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="cedulaCliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idTransportista" Type="Int32" />
+    <Property Name="nombreTransportista" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="peso" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="estadoInicialOrden" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRecibidoMiami" Type="DateTime" Precision="0" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="observaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="idEjecutivoCuenta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="imgFactura" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Provincias">
+    <Key>
+      <PropertyRef Name="id_prov" />
+      <PropertyRef Name="provincia" />
+    </Key>
+    <Property Name="id_prov" Type="String" MaxLength="2" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="provincia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transportistas">
+    <Key>
+      <PropertyRef Name="idTransportista" />
+    </Key>
+    <Property Name="idTransportista" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreTransportista" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="LOADIMPSAEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CodigosPromocionales" EntityType="Self.CodigosPromocionales" />
+    <EntitySet Name="MenuApp" EntityType="Self.MenuApp" />
+    <EntitySet Name="ParametrosCorporativos" EntityType="Self.ParametrosCorporativos" />
+    <EntitySet Name="RegistroVentas" EntityType="Self.RegistroVentas" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="RolesUsuario" EntityType="Self.RolesUsuario" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+    <EntitySet Name="Cantones" EntityType="Self.Cantones" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="Cotizaciones" EntityType="Self.Cotizaciones" />
+    <EntitySet Name="EnviosBodega" EntityType="Self.EnviosBodega" />
+    <EntitySet Name="OrdenesNegocio" EntityType="Self.OrdenesNegocio" />
+    <EntitySet Name="Provincias" EntityType="Self.Provincias" />
+    <EntitySet Name="Transportistas" EntityType="Self.Transportistas" />
+    <FunctionImport Name="Split" IsComposable="true" ReturnType="Collection(LOADIMPSAModel.Split_Result)">
+      <Parameter Name="String" Mode="In" Type="String" />
+      <Parameter Name="Delimitador" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_clientes">
+      <Parameter Name="intTipoIdentificacion" Mode="In" Type="Int32" />
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+      <Parameter Name="strPrimerNombre" Mode="In" Type="String" />
+      <Parameter Name="strSegundoNombre" Mode="In" Type="String" />
+      <Parameter Name="strPrimerApellido" Mode="In" Type="String" />
+      <Parameter Name="strSegundoApellido" Mode="In" Type="String" />
+      <Parameter Name="intSexo" Mode="In" Type="Int32" />
+      <Parameter Name="strTelefono" Mode="In" Type="String" />
+      <Parameter Name="strCorreo" Mode="In" Type="String" />
+      <Parameter Name="strCelular" Mode="In" Type="String" />
+      <Parameter Name="strProvinciaId" Mode="In" Type="String" />
+      <Parameter Name="strProvincia" Mode="In" Type="String" />
+      <Parameter Name="strCantonId" Mode="In" Type="String" />
+      <Parameter Name="strCanton" Mode="In" Type="String" />
+      <Parameter Name="strDireccion" Mode="In" Type="String" />
+      <Parameter Name="datFechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="strRol" Mode="In" Type="String" />
+      <Parameter Name="strCodigoCLienteVip" Mode="In" Type="String" />
+      <Parameter Name="strCodUsuario" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_direccion">
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+      <Parameter Name="strDireccion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_empleados">
+      <Parameter Name="intTipoIdentificacion" Mode="In" Type="Int32" />
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+      <Parameter Name="strPrimerNombre" Mode="In" Type="String" />
+      <Parameter Name="strSegundoNombre" Mode="In" Type="String" />
+      <Parameter Name="strPrimerApellido" Mode="In" Type="String" />
+      <Parameter Name="strSegundoApellido" Mode="In" Type="String" />
+      <Parameter Name="intSexo" Mode="In" Type="Int32" />
+      <Parameter Name="strTelefono" Mode="In" Type="String" />
+      <Parameter Name="strCorreo" Mode="In" Type="String" />
+      <Parameter Name="strCelular" Mode="In" Type="String" />
+      <Parameter Name="datFechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="strRol" Mode="In" Type="String" />
+      <Parameter Name="strCodUsuario" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_estado_ventas" ReturnType="Collection(Boolean)">
+      <Parameter Name="idVenta" Mode="In" Type="String" />
+      <Parameter Name="porcentaje" Mode="In" Type="Int32" />
+      <Parameter Name="valorComision" Mode="In" Type="Decimal" />
+      <Parameter Name="estado" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_orden_check_out" ReturnType="Collection(Boolean)">
+      <Parameter Name="intOrdenEnvio" Mode="In" Type="Int32" />
+      <Parameter Name="strObservacion" Mode="In" Type="String" />
+      <Parameter Name="strUsuario" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_orden_interna">
+      <Parameter Name="intOrdenInterna" Mode="In" Type="Int32" />
+      <Parameter Name="imagenFactura" Mode="In" Type="Binary" />
+      <Parameter Name="valorEnvio" Mode="In" Type="Decimal" />
+      <Parameter Name="usuarioRegistro" Mode="In" Type="String" />
+      <Parameter Name="descripcionProducto" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_parametros_corporativos" ReturnType="Collection(Boolean)">
+      <Parameter Name="intCodigoParametro" Mode="In" Type="Int32" />
+      <Parameter Name="valorint" Mode="In" Type="Int32" />
+      <Parameter Name="valorchar" Mode="In" Type="String" />
+      <Parameter Name="valordate" Mode="In" Type="DateTime" />
+      <Parameter Name="valordecimal" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_actualiza_password">
+      <Parameter Name="cod_usu" Mode="In" Type="String" />
+      <Parameter Name="password_ant" Mode="In" Type="String" />
+      <Parameter Name="password_new" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_busca_clientes" ReturnType="Collection(LOADIMPSAModel.sp_busca_clientes_Result)">
+      <Parameter Name="buscarCliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_buscar_cliente" ReturnType="Collection(LOADIMPSAModel.sp_buscar_cliente_Result)">
+      <Parameter Name="filtro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_buscar_empleado" ReturnType="Collection(LOADIMPSAModel.sp_buscar_empleado_Result)">
+      <Parameter Name="filtro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_buscar_estudiante" ReturnType="Collection(LOADIMPSAModel.sp_buscar_estudiante_Result)">
+      <Parameter Name="filtro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_buscar_parametros_corporativos" ReturnType="Collection(LOADIMPSAModel.sp_buscar_parametros_corporativos_Result)">
+      <Parameter Name="nombrecodificado" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_cambio_estado_orden_administrador">
+      <Parameter Name="intOrdenInterno" Mode="In" Type="Int32" />
+      <Parameter Name="strEstado" Mode="In" Type="String" />
+      <Parameter Name="strObservaciones" Mode="In" Type="String" />
+      <Parameter Name="strUsuarioRegistro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_cambio_estado_usuario">
+      <Parameter Name="estado" Mode="In" Type="Boolean" />
+      <Parameter Name="cod_usu" Mode="In" Type="String" />
+      <Parameter Name="identificacion" Mode="In" Type="String" />
+      <Parameter Name="id_rol" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_cantones_provincia" ReturnType="Collection(LOADIMPSAModel.sp_cantones_provincia_Result)">
+      <Parameter Name="id_prov" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_clientes" ReturnType="Collection(LOADIMPSAModel.sp_clientes_Result)" />
+    <FunctionImport Name="sp_crear_usuarios">
+      <Parameter Name="cedula" Mode="In" Type="String" />
+      <Parameter Name="rol" Mode="In" Type="Int32" />
+      <Parameter Name="usuario" Mode="In" Type="String" />
+      <Parameter Name="contrasenia" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_datos_clientes_actualizacion" ReturnType="Collection(LOADIMPSAModel.sp_datos_clientes_actualizacion_Result)">
+      <Parameter Name="numeroIdentificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_datos_empleados_actualizacion" ReturnType="Collection(LOADIMPSAModel.sp_datos_empleados_actualizacion_Result)">
+      <Parameter Name="numeroIdentificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ejecutivos_cuenta" ReturnType="Collection(LOADIMPSAModel.sp_ejecutivos_cuenta_Result)" />
+    <FunctionImport Name="sp_elimina_orden_administrador" ReturnType="Collection(Boolean)">
+      <Parameter Name="intOrdenInterno" Mode="In" Type="Int32" />
+      <Parameter Name="strEstado" Mode="In" Type="String" />
+      <Parameter Name="strObservaciones" Mode="In" Type="String" />
+      <Parameter Name="strUsuarioRegistro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_eliminar_clientes">
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_generar_orden" ReturnType="Collection(Int32)">
+      <Parameter Name="strTipoEntrega" Mode="In" Type="String" />
+      <Parameter Name="usuarioRegistro" Mode="In" Type="String" />
+      <Parameter Name="strNombreArchivoPago" Mode="In" Type="String" />
+      <Parameter Name="strCategoria" Mode="In" Type="String" />
+      <Parameter Name="strObservacion" Mode="In" Type="String" />
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+      <Parameter Name="decPesoTotalEnvio" Mode="In" Type="Decimal" />
+      <Parameter Name="decPagoTotalEnvio" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_generar_orden_detalle">
+      <Parameter Name="idOrdenEnvio" Mode="In" Type="Int32" />
+      <Parameter Name="idOrden" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_historial_tracking" ReturnType="Collection(LOADIMPSAModel.sp_historial_tracking_Result)">
+      <Parameter Name="intNumOrdenInterna" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_inserta_cotizacion" ReturnType="Collection(Int32)">
+      <Parameter Name="strCliente" Mode="In" Type="String" />
+      <Parameter Name="strCategoria" Mode="In" Type="String" />
+      <Parameter Name="strDescripcionMercancia" Mode="In" Type="String" />
+      <Parameter Name="decValorFOF" Mode="In" Type="Decimal" />
+      <Parameter Name="decPeso" Mode="In" Type="Decimal" />
+      <Parameter Name="decServicioCourier" Mode="In" Type="Decimal" />
+      <Parameter Name="totalEnvio" Mode="In" Type="Decimal" />
+      <Parameter Name="strUsuarioRegistro" Mode="In" Type="String" />
+      <Parameter Name="nacionalizacion" Mode="In" Type="Decimal" />
+      <Parameter Name="flete" Mode="In" Type="Decimal" />
+      <Parameter Name="impuestoSenae" Mode="In" Type="Decimal" />
+      <Parameter Name="decValorEnvioDomicilio" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_inserta_empleado">
+      <Parameter Name="intTipoIdentificacion" Mode="In" Type="Int32" />
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+      <Parameter Name="strPrimerNombre" Mode="In" Type="String" />
+      <Parameter Name="strSegundoNombre" Mode="In" Type="String" />
+      <Parameter Name="strPrimerApellido" Mode="In" Type="String" />
+      <Parameter Name="strSegundoApellido" Mode="In" Type="String" />
+      <Parameter Name="intSexo" Mode="In" Type="Int32" />
+      <Parameter Name="strCelular" Mode="In" Type="String" />
+      <Parameter Name="strCorreo" Mode="In" Type="String" />
+      <Parameter Name="datFechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="strTelefono" Mode="In" Type="String" />
+      <Parameter Name="strRol" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_inserta_orden_interna">
+      <Parameter Name="intOrdenInterno" Mode="In" Type="Int32" />
+      <Parameter Name="strTracking" Mode="In" Type="String" />
+      <Parameter Name="strCliente" Mode="In" Type="String" />
+      <Parameter Name="intIdTransportista" Mode="In" Type="Int32" />
+      <Parameter Name="strNombreTransportista" Mode="In" Type="String" />
+      <Parameter Name="decPeso" Mode="In" Type="Decimal" />
+      <Parameter Name="datFechaRecibidoMiami" Mode="In" Type="DateTime" />
+      <Parameter Name="strDescripcion" Mode="In" Type="String" />
+      <Parameter Name="strObservaciones" Mode="In" Type="String" />
+      <Parameter Name="strUsuarioRegistro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_insertar_clientes">
+      <Parameter Name="intTipoIdentificacion" Mode="In" Type="Int32" />
+      <Parameter Name="strIdentificacion" Mode="In" Type="String" />
+      <Parameter Name="strPrimerNombre" Mode="In" Type="String" />
+      <Parameter Name="strSegundoNombre" Mode="In" Type="String" />
+      <Parameter Name="strPrimerApellido" Mode="In" Type="String" />
+      <Parameter Name="strSegundoApellido" Mode="In" Type="String" />
+      <Parameter Name="intSexo" Mode="In" Type="Int32" />
+      <Parameter Name="strTelefono" Mode="In" Type="String" />
+      <Parameter Name="strCorreo" Mode="In" Type="String" />
+      <Parameter Name="strCelular" Mode="In" Type="String" />
+      <Parameter Name="strProvinciaId" Mode="In" Type="String" />
+      <Parameter Name="strProvincia" Mode="In" Type="String" />
+      <Parameter Name="strCantonId" Mode="In" Type="String" />
+      <Parameter Name="strCanton" Mode="In" Type="String" />
+      <Parameter Name="strDireccion" Mode="In" Type="String" />
+      <Parameter Name="datFechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="strMarketing" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_lista_parametros_corporativos" ReturnType="Collection(LOADIMPSAModel.sp_lista_parametros_corporativos_Result)" />
+    <FunctionImport Name="sp_listado_clientes_empleado" ReturnType="Collection(LOADIMPSAModel.sp_listado_clientes_empleado_Result)">
+      <Parameter Name="strEmpleado" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_listado_trackings_filtros" ReturnType="Collection(LOADIMPSAModel.sp_listado_trackings_filtros_Result)">
+      <Parameter Name="strEstadoTrackings" Mode="In" Type="String" />
+      <Parameter Name="strNroOrden" Mode="In" Type="String" />
+      <Parameter Name="strNroTracking" Mode="In" Type="String" />
+      <Parameter Name="datFechaIngreso" Mode="In" Type="DateTime" />
+      <Parameter Name="datFechaRecibidoMiami" Mode="In" Type="DateTime" />
+      <Parameter Name="strEjecutivo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_listado_usuarios" ReturnType="Collection(LOADIMPSAModel.sp_listado_usuarios_Result)" />
+    <FunctionImport Name="sp_listado_ventas_ejecutivo" ReturnType="Collection(LOADIMPSAModel.sp_listado_ventas_ejecutivo_Result)">
+      <Parameter Name="idEjecutivo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_menu" ReturnType="Collection(LOADIMPSAModel.sp_menu_Result)">
+      <Parameter Name="intEstado" Mode="In" Type="Boolean" />
+      <Parameter Name="strRol" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_menu_nuevo" ReturnType="Collection(LOADIMPSAModel.sp_menu_nuevo_Result)">
+      <Parameter Name="intEstado" Mode="In" Type="Boolean" />
+      <Parameter Name="strRol" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_orden_envio" ReturnType="Collection(LOADIMPSAModel.sp_orden_envio_Result)">
+      <Parameter Name="datFechaIngreso" Mode="In" Type="DateTime" />
+      <Parameter Name="datFechaFin" Mode="In" Type="DateTime" />
+      <Parameter Name="estadoOrdenFiltro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_orden_envio_detalle" ReturnType="Collection(LOADIMPSAModel.sp_orden_envio_detalle_Result)">
+      <Parameter Name="intIDEnvio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_provincias" ReturnType="Collection(LOADIMPSAModel.sp_provincias_Result)" />
+    <FunctionImport Name="sp_recupera_clave_mail">
+      <Parameter Name="strUsuario" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_registro_venta_comision" ReturnType="Collection(Boolean)">
+      <Parameter Name="fechaVentaEfectiva" Mode="In" Type="DateTime" />
+      <Parameter Name="tipoCliente" Mode="In" Type="String" />
+      <Parameter Name="tipoDocumento" Mode="In" Type="String" />
+      <Parameter Name="nroDocumento" Mode="In" Type="String" />
+      <Parameter Name="valorVenta" Mode="In" Type="Decimal" />
+      <Parameter Name="tipoVenta" Mode="In" Type="String" />
+      <Parameter Name="porcentaje" Mode="In" Type="Int32" />
+      <Parameter Name="valorComision" Mode="In" Type="Decimal" />
+      <Parameter Name="usuarioRegistro" Mode="In" Type="String" />
+      <Parameter Name="identificacionEjecutivo" Mode="In" Type="String" />
+      <Parameter Name="identificacionCliente" Mode="In" Type="String" />
+      <Parameter Name="strDescripcionVenta" Mode="In" Type="String" />
+      <Parameter Name="valorVentaSinIVA" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_reporte_clientes" ReturnType="Collection(LOADIMPSAModel.sp_reporte_clientes_Result)">
+      <Parameter Name="strAnio" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_reporte_cotizaciones" ReturnType="Collection(LOADIMPSAModel.sp_reporte_cotizaciones_Result)">
+      <Parameter Name="strCliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_reseteo_clave">
+      <Parameter Name="password" Mode="In" Type="String" />
+      <Parameter Name="cod_usu" Mode="In" Type="String" />
+      <Parameter Name="identificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_reverso_estado_orden_administrador">
+      <Parameter Name="intOrdenInterno" Mode="In" Type="Int32" />
+      <Parameter Name="strEstado" Mode="In" Type="String" />
+      <Parameter Name="strObservaciones" Mode="In" Type="String" />
+      <Parameter Name="strUsuarioRegistro" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_roles_administrativos" ReturnType="Collection(LOADIMPSAModel.sp_roles_administrativos_Result)" />
+    <FunctionImport Name="sp_trackings_cliente" ReturnType="Collection(LOADIMPSAModel.sp_trackings_cliente_Result)">
+      <Parameter Name="strCliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_trackings_cliente_estados" ReturnType="Collection(LOADIMPSAModel.sp_trackings_cliente_estados_Result)">
+      <Parameter Name="strCliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_transferir_cliente_empleado" ReturnType="Collection(Boolean)">
+      <Parameter Name="strCliente" Mode="In" Type="String" />
+      <Parameter Name="strIdEjectivo" Mode="In" Type="String" />
+      <Parameter Name="strIdEjecutivoNuevo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_transportistas" ReturnType="Collection(LOADIMPSAModel.sp_transportistas_Result)" />
+    <FunctionImport Name="sp_valida_usuario_ingresa" ReturnType="Collection(LOADIMPSAModel.sp_valida_usuario_ingresa_Result)">
+      <Parameter Name="cod_usu" Mode="In" Type="String" />
+      <Parameter Name="pass" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ventas_ejecutivo" ReturnType="Collection(LOADIMPSAModel.sp_ventas_ejecutivo_Result)">
+      <Parameter Name="strEjecutivo" Mode="In" Type="String" />
+      <Parameter Name="strFechaInicio" Mode="In" Type="DateTime" />
+      <Parameter Name="strFechaFin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ventas_ejecutivo_reporte" ReturnType="Collection(LOADIMPSAModel.sp_ventas_ejecutivo_reporte_Result)">
+      <Parameter Name="strEjecutivo" Mode="In" Type="String" />
+      <Parameter Name="strFechaInicio" Mode="In" Type="DateTime" />
+      <Parameter Name="strFechaFin" Mode="In" Type="DateTime" />
+      <Parameter Name="strEstado" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_busca_clientes_Result">
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="1203" />
+  </ComplexType>
+  <ComplexType Name="sp_buscar_cliente_Result">
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="1203" />
+  </ComplexType>
+  <ComplexType Name="sp_buscar_empleado_Result">
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="1203" />
+  </ComplexType>
+  <ComplexType Name="sp_buscar_estudiante_Result">
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="nombres" Nullable="false" MaxLength="1203" />
+  </ComplexType>
+  <ComplexType Name="sp_buscar_parametros_corporativos_Result">
+    <Property Type="Int32" Name="codigoparametro" Nullable="false" />
+    <Property Type="String" Name="nombrecodificado" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="valorint" Nullable="true" />
+    <Property Type="String" Name="valorchar" Nullable="true" />
+    <Property Type="DateTime" Name="valordate" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="valordecimal" Nullable="true" Precision="12" Scale="8" />
+  </ComplexType>
+  <ComplexType Name="sp_cantones_provincia_Result">
+    <Property Type="String" Name="id_cant" Nullable="false" MaxLength="5" />
+    <Property Type="String" Name="canton" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_clientes_Result">
+    <Property Type="Int32" Name="idCasillero" Nullable="false" />
+    <Property Type="Int32" Name="tipoIdentificacion" Nullable="true" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="primerNombre" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="segundoNombre" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="primerApellido" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="segundoApellido" Nullable="true" MaxLength="300" />
+    <Property Type="Int32" Name="sexoID" Nullable="true" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="celular" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="provinciaId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="provincia" Nullable="true" />
+    <Property Type="String" Name="cantonId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="canton" Nullable="true" />
+    <Property Type="String" Name="direccionEntrega" Nullable="true" />
+    <Property Type="DateTime" Name="fechaNacimiento" Nullable="true" />
+    <Property Type="String" Name="campoMarketing" Nullable="true" />
+    <Property Type="String" Name="idEjecutivoCuenta" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistroCliente" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_datos_clientes_actualizacion_Result">
+    <Property Type="Int32" Name="idCasillero" Nullable="false" />
+    <Property Type="Int32" Name="tipoIdentificacion" Nullable="true" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="primerNombre" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="segundoNombre" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="primerApellido" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="segundoApellido" Nullable="true" MaxLength="300" />
+    <Property Type="Int32" Name="sexoID" Nullable="true" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="celular" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="provinciaId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="provincia" Nullable="true" />
+    <Property Type="String" Name="cantonId" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="canton" Nullable="true" />
+    <Property Type="String" Name="direccionEntrega" Nullable="true" />
+    <Property Type="DateTime" Name="fechaNacimiento" Nullable="true" />
+    <Property Type="String" Name="campoMarketing" Nullable="true" />
+    <Property Type="String" Name="idEjecutivoCuenta" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistroCliente" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="id_rol" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_datos_empleados_actualizacion_Result">
+    <Property Type="Int32" Name="tipoIdentificacion" Nullable="true" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="primerNombre" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="segundoNombre" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="primerApellido" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="segundoApellido" Nullable="true" MaxLength="300" />
+    <Property Type="Int32" Name="sexoID" Nullable="true" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="celular" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="fecha_nacimiento" Nullable="true" />
+    <Property Type="Int32" Name="id_rol" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_ejecutivos_cuenta_Result">
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="1308" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="sp_historial_tracking_Result">
+    <Property Type="Int32" Name="numeroOrdenInterno" Nullable="true" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="true" Precision="23" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="estadoOrden" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="observacion" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_lista_parametros_corporativos_Result">
+    <Property Type="Int32" Name="codigoparametro" Nullable="false" />
+    <Property Type="String" Name="nombrecodificado" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="valorint" Nullable="true" />
+    <Property Type="String" Name="valorchar" Nullable="true" />
+    <Property Type="DateTime" Name="valordate" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="valordecimal" Nullable="true" Precision="12" Scale="8" />
+  </ComplexType>
+  <ComplexType Name="sp_listado_clientes_empleado_Result">
+    <Property Type="Int32" Name="idCasillero" Nullable="false" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NombreCliente" Nullable="true" MaxLength="1203" />
+    <Property Type="String" Name="telefono" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="provincia" Nullable="true" />
+    <Property Type="String" Name="canton" Nullable="true" />
+    <Property Type="String" Name="direccionEntrega" Nullable="true" />
+    <Property Type="String" Name="idEjecutivoCuenta" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_listado_trackings_filtros_Result">
+    <Property Type="Int32" Name="numeroOrdenInterno" Nullable="true" />
+    <Property Type="String" Name="tracking" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="cedulaCliente" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="idTransportista" Nullable="true" />
+    <Property Type="String" Name="nombreTransportista" Nullable="true" />
+    <Property Type="Decimal" Name="peso" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="estadoInicialOrden" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="fechaRecibidoMiami" Nullable="true" />
+    <Property Type="String" Name="descripcion" Nullable="true" />
+    <Property Type="String" Name="observaciones" Nullable="true" />
+    <Property Type="String" Name="idEjecutivoCuenta" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="200" />
+    <Property Type="Decimal" Name="precio" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Binary" Name="imgFactura" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="NombreCompleto" Nullable="true" MaxLength="1203" />
+  </ComplexType>
+  <ComplexType Name="sp_listado_usuarios_Result">
+    <Property Type="String" Name="cod_usu" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="numeroIdentificacion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Nombres" Nullable="true" MaxLength="1203" />
+    <Property Type="String" Name="estado" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="tipo" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_listado_ventas_ejecutivo_Result">
+    <Property Type="Int32" Name="idVenta" Nullable="false" />
+    <Property Type="DateTime" Name="FechaVentaEfectiva" Nullable="true" />
+    <Property Type="DateTime" Name="fechaRegistroVenta" Nullable="true" Precision="23" />
+    <Property Type="String" Name="tipoCliente" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tipoDocumento" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="nroDocumento" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="valorVenta" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="tipoVenta" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="porcentaje" Nullable="true" />
+    <Property Type="Decimal" Name="valorComision" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="estado" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="identificacionEjecutivo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="identificacionCliente" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="descripcionVenta" Nullable="true" />
+    <Property Type="Decimal" Name="ventaSinIVA" Nullable="true" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_menu_Result">
+    <Property Type="Int32" Name="id_nivel" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="id_padre" Nullable="true" />
+    <Property Type="String" Name="url" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_menu_nuevo_Result">
+    <Property Type="Int32" Name="MenuId" Nullable="false" />
+    <Property Type="Int32" Name="ParentMenuId" Nullable="false" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="105" />
+    <Property Type="String" Name="Url" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CssFont" Nullable="true" MaxLength="220" />
+  </ComplexType>
+  <ComplexType Name="sp_orden_envio_Result">
+    <Property Type="Int32" Name="idEnvio" Nullable="false" />
+    <Property Type="String" Name="tipoEntrega" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="categoria" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="true" Precision="23" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="observacion" Nullable="true" />
+    <Property Type="String" Name="NombreCompleto" Nullable="true" MaxLength="1203" />
+    <Property Type="String" Name="EjecutivoCuenta" Nullable="true" MaxLength="1203" />
+    <Property Type="Decimal" Name="totalPesoEnvio" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="pagoTotalEnvio" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="estadoOrden" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_orden_envio_detalle_Result">
+    <Property Type="Int32" Name="idOrden" Nullable="true" />
+    <Property Type="String" Name="cedulaCliente" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NombreCompleto" Nullable="true" MaxLength="1203" />
+    <Property Type="String" Name="descripcion" Nullable="true" />
+    <Property Type="Decimal" Name="precio" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="peso" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="tracking" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_provincias_Result">
+    <Property Type="String" Name="id_prov" Nullable="false" MaxLength="2" />
+    <Property Type="String" Name="provincia" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_reporte_clientes_Result">
+    <Property Type="Int32" Name="mes" Nullable="true" />
+    <Property Type="Int32" Name="cantidadClientMes" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_reporte_cotizaciones_Result">
+    <Property Type="Int32" Name="idCotizacion" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="1203" />
+    <Property Type="String" Name="correo" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="descripcionMercancia" Nullable="true" />
+    <Property Type="Decimal" Name="valorFof" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="peso" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="servicioCourier" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="totalEnvio" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="DateTime" Name="fechaCotizacion" Nullable="true" Precision="23" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="nacionalizacion" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="fleteInternacional" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="envioDomicilio" Nullable="false" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="impuestoSenae" Nullable="false" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_roles_administrativos_Result">
+    <Property Type="Int32" Name="id_rol" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_trackings_cliente_Result">
+    <Property Type="Int32" Name="numeroOrdenInterno" Nullable="true" />
+    <Property Type="String" Name="tracking" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="idTransportista" Nullable="true" />
+    <Property Type="String" Name="nombreTransportista" Nullable="true" />
+    <Property Type="Decimal" Name="peso" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="DateTime" Name="fechaRecibidoMiami" Nullable="true" />
+    <Property Type="String" Name="observaciones" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_trackings_cliente_estados_Result">
+    <Property Type="Int32" Name="numeroOrdenInterno" Nullable="true" />
+    <Property Type="String" Name="tracking" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="idTransportista" Nullable="true" />
+    <Property Type="String" Name="nombreTransportista" Nullable="true" />
+    <Property Type="Decimal" Name="peso" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="DateTime" Name="fechaRecibidoMiami" Nullable="true" />
+    <Property Type="String" Name="observaciones" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_transportistas_Result">
+    <Property Type="Int32" Name="idTransportista" Nullable="false" />
+    <Property Type="String" Name="nombreTransportista" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="estado" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_valida_usuario_ingresa_Result">
+    <Property Type="String" Name="cod_usu" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="identificacion" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="id_rol" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="1203" />
+    <Property Type="Boolean" Name="cambio_clave" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_cambio_clave" Nullable="true" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="String" Name="direccionEntrega" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ventas_ejecutivo_Result">
+    <Property Type="Int32" Name="idVenta" Nullable="false" />
+    <Property Type="DateTime" Name="FechaVentaEfectiva" Nullable="true" />
+    <Property Type="DateTime" Name="fechaRegistroVenta" Nullable="true" Precision="23" />
+    <Property Type="String" Name="tipoCliente" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tipoDocumento" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="nroDocumento" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="valorVenta" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="tipoVenta" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="porcentaje" Nullable="true" />
+    <Property Type="Decimal" Name="valorComision" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="estado" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="identificacionEjecutivo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="identificacionCliente" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="descripcionVenta" Nullable="true" />
+    <Property Type="Decimal" Name="ventaSinIVA" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="1203" />
+  </ComplexType>
+  <ComplexType Name="sp_ventas_ejecutivo_reporte_Result">
+    <Property Type="Int32" Name="idVenta" Nullable="false" />
+    <Property Type="DateTime" Name="FechaVentaEfectiva" Nullable="true" />
+    <Property Type="DateTime" Name="fechaRegistroVenta" Nullable="true" Precision="23" />
+    <Property Type="String" Name="tipoCliente" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tipoDocumento" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="nroDocumento" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="valorVenta" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="tipoVenta" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="porcentaje" Nullable="true" />
+    <Property Type="Decimal" Name="valorComision" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="estado" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="identificacionEjecutivo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="identificacionCliente" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="descripcionVenta" Nullable="true" />
+    <Property Type="Decimal" Name="ventaSinIVA" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="1203" />
+  </ComplexType>
+</Schema>
